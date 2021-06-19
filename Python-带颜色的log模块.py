@@ -1,0 +1,11 @@
+def__init__(self):
+    self.LOG_LEVEL=logging.INFO
+    logforat="%(log_color)s%(asctime)s%(levelname)-8s%(reset)s|%(log_color)s%(message)s%(reset)s"
+    logging.root.setLevel(self.LOG_LEVEL)
+    formatter=ColoredFormatter(logforat)
+    stream=logging.StreamHandler()
+    stream.setLevel(self.LOG_LEVEL)
+    stream.setFormatter(formatter)
+    self.log=logging.getLogger('pythonConfig')
+    self.log.setLevel(self.LOG_LEVEL)
+    self.log.addHandler(stream)
