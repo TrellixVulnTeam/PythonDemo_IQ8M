@@ -23,8 +23,6 @@ def get_cookie(url):
     driver.quit()
 
 
-
-
 if __name__ == '__main__':
     # url = 'https://www.baidu.com'
     url = 'https://weibo.com/'
