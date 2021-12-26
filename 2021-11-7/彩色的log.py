@@ -15,7 +15,7 @@ log_colors_config = {
 
 class Log:
     def __init__(self, logname='Access_log'):
-        self.logname = os.path.join(".\log", '%s' % logname)
+        self.logname = os.path.join("..\log", '%s' % logname)
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.DEBUG)
         self.formatter = colorlog.ColoredFormatter(
@@ -66,3 +66,7 @@ if __name__ == "__main__":
     log.info("测试1")  # 如果你需要在打印字段中设置
     log.debug("测试2")  # 如果你需要在打印字段中设置
     log.error("wawawa,baocuol")
+    log.info("测试1")  # 如果你需要在打印字段中设置
+    log.debug("测试2")  # 如果你需要在打印字段中设置
+    log.error("ERROR，测试3")
+    log.warning("测试4")

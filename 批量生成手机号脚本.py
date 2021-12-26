@@ -1,5 +1,6 @@
 # random 返回随机生成的一个实数
 import random
+import time
 
 
 def get_mobile():
