@@ -27,20 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add pythontupledemo">
-      <change afterPath="$PROJECT_DIR$/Python03SetMethodDemo/set_01_add_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python03SetMethodDemo/set_01_del_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python04DictionaryMethondDemo/dict_01_add_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python04DictionaryMethondDemo/dict_02_del_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newtest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python05StringMethodDemo/String_01_letter_processing_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_01_add_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_01_add_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_02_update_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_02_update_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_03_del_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_03_del_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_04_count_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_04_count_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_05_unpack_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_05_unpack_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonListMethodDemo/list_06_derivation_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python01ListMethodDemo/list_06_derivation_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonTupleMethodDemo/tuple_01_definition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python02TupleMethodDemo/tuple_01_definition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonTupleMethodDemo/tuple_02_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python02TupleMethodDemo/tuple_02_change.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +75,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\PythonDemo" />
+      <recent name="E:\Code\Python\PythonDemo\APP操作" />
+      <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
+      <recent name="E:\Code\Python\PythonDemo\Test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Code\Python\PythonDemo\Python04DictionaryMethondDemo" />
       <recent name="E:\Code\Python\PythonDemo\Python03SetMethodDemo" />
@@ -94,14 +88,30 @@
       <recent name="E:\Code\Python\PythonDemo\python数组常用方法" />
       <recent name="E:\Code\Python\PythonDemo\2021-11-7" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\Python\PythonDemo" />
-      <recent name="E:\Code\Python\PythonDemo\APP操作" />
-      <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
-      <recent name="E:\Code\Python\PythonDemo\Test" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.彩色的log">
+  <component name="RunManager" selected="Python.String_01_letter_processing_method">
+    <configuration name="String_01_letter_processing_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python05StringMethodDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python05StringMethodDemo/String_01_letter_processing_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dict_01_add_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,28 +178,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="set_01_add_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python03SetMethodDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python03SetMethodDemo/set_01_add_method.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="set_01_del_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.String_01_letter_processing_method" />
         <item itemvalue="Python.彩色的log" />
         <item itemvalue="Python.dict_02_del_method" />
         <item itemvalue="Python.dict_01_add_method" />
         <item itemvalue="Python.set_01_del_method" />
-        <item itemvalue="Python.set_01_add_method" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +227,7 @@
       <workItem from="1642318955132" duration="7346000" />
       <workItem from="1642347302866" duration="1252000" />
       <workItem from="1642433894811" duration="2776000" />
+      <workItem from="1642606162847" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="add tqdm进度条demo">
       <created>1636285656180</created>
@@ -361,22 +350,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1636284883066" />
-    <state width="1397" height="253" key="GridCell.Tab.0.bottom" timestamp="1642436666152">
+    <state width="1397" height="253" key="GridCell.Tab.0.bottom" timestamp="1642607470017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="253" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1642436666152" />
-    <state width="1397" height="253" key="GridCell.Tab.0.center" timestamp="1642436666152">
+    <state width="1397" height="253" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1642607470017" />
+    <state width="1397" height="253" key="GridCell.Tab.0.center" timestamp="1642607470017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="253" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1642436666152" />
-    <state width="1397" height="253" key="GridCell.Tab.0.left" timestamp="1642436666152">
+    <state width="1397" height="253" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1642607470017" />
+    <state width="1397" height="253" key="GridCell.Tab.0.left" timestamp="1642607470017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="253" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1642436666152" />
-    <state width="1397" height="253" key="GridCell.Tab.0.right" timestamp="1642436666152">
+    <state width="1397" height="253" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1642607470017" />
+    <state width="1397" height="253" key="GridCell.Tab.0.right" timestamp="1642607470017">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="253" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1642436666152" />
+    <state width="1397" height="253" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1642607470017" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1642435884877">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -455,6 +444,7 @@
     <SUITE FILE_PATH="coverage/PythonDemo$list_del_method.coverage" NAME="list_03_del_method Coverage Results" MODIFIED="1642321185644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python数组常用方法" />
     <SUITE FILE_PATH="coverage/PythonDemo$list_update_method.coverage" NAME="list_update_method Coverage Results" MODIFIED="1642320454459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python数组常用方法" />
     <SUITE FILE_PATH="coverage/PythonDemo$list_05_unpack_method__1_.coverage" NAME="list_05_unpack_method (1) Coverage Results" MODIFIED="1642322158651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python数组常用方法" />
+    <SUITE FILE_PATH="coverage/PythonDemo$String_01_letter_processing_method.coverage" NAME="String_01_letter_processing_method Coverage Results" MODIFIED="1642607470007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python05StringMethodDemo" />
     <SUITE FILE_PATH="coverage/PythonDemo$tuple_02_change.coverage" NAME="tuple_02_change Coverage Results" MODIFIED="1642325677056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTupleMethodDemo" />
     <SUITE FILE_PATH="coverage/PythonDemo$logging.coverage" NAME="logging模块实现日志的收集 Coverage Results" MODIFIED="1636287310348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonDemo$run_logger.coverage" NAME="run_logger Coverage Results" MODIFIED="1640499261118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
