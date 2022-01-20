@@ -28,7 +28,7 @@ def dow():
 
 
 threads = []
-frequency = 98
+frequency = 2
 for i in range(frequency):  # 需要的弹框数量
     if i <= frequency:
         t = threading.Thread(target=dow)
