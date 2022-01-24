@@ -29,13 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add pythonstringstripdemo">
-      <change afterPath="$PROJECT_DIR$/内置方法/Python__file__demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/内置方法/Python__name__demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/内置方法/demo_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多态/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python05StringMethodDemo/String_09_section_string_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python05StringMethodDemo/String_09_section_string_method.py" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add python demo">
+      <change afterPath="$PROJECT_DIR$/Python06PymysqlDemo/pymysql01_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +93,7 @@
       <recent name="E:\Code\Python\PythonDemo\PythonTupleMethodDemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="E:\Code\Python\PythonDemo\Test" />
       <recent name="E:\Code\Python\PythonDemo" />
       <recent name="E:\Code\Python\PythonDemo\APP操作" />
@@ -325,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642864950626</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add python demo">
+      <created>1642953669725</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642953669725</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +367,8 @@
     <MESSAGE value="add pythonlistdemo" />
     <MESSAGE value="add pythontupledemo" />
     <MESSAGE value="add pythonstringstripdemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pythonstringstripdemo" />
+    <MESSAGE value="add python demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add python demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
