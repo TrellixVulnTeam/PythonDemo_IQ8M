@@ -5,9 +5,10 @@
 
 # 导包
 import pymysql
+
 try:
     # 获取数据库连接
-    conn = pymysql.connect(host="8.131.250.56", user="root", passwd="password", database="books", port=3306,
+    conn = pymysql.connect(host="8.131.250.56", user="root", passwd="passwordMYSQL123", database="books", port=3308,
                            autocommit=True)
     # 设置是否自动提交事务
     # conn.autocommit(False)
