@@ -16,8 +16,8 @@ class DBUtil:
     @classmethod
     def get_conn(cls):
         if cls.__conn is None:
-            cls.__conn = pymysql.connect(host="8.131.250.56", user="root", passwd="passwordMYSQL123", database="books",
-                                         port=3308)
+            cls.__conn = pymysql.connect(host="7x5.top", user="root", passwd="Lemon123456!", database="books",
+                                         port=3306)
         return cls.__conn
 
     # 关闭数据库连接对象
