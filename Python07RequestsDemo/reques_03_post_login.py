@@ -42,7 +42,7 @@ class PostDemo:
 
 
 if __name__ == '__main__':
-    for n in range(5):
+    for n in range(20):
         print("*" * 100)
         # 获取响应结果
         res = PostDemo().post_login()
