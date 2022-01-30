@@ -13,7 +13,7 @@ import logging
 import time
 
 import requests
-import create_phone
+from Python07RequestsDemo import create_phone
 
 
 class PostDemo:
@@ -43,7 +43,7 @@ class PostDemo:
         }
         logging.info("运行注册接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.register_data)
-        logging.info("注册接口返回结果：\n{}".format(res.json()))
+        logging.info("注册接口返回结果\n{}".format(res.json()))
         return res
 
 

@@ -8,7 +8,7 @@
 import time
 import logging
 import requests
-import reques_02_post_register
+from Python07RequestsDemo import reques_02_post_register
 
 
 # 发送POST请求，请求体数据JSON格式
@@ -37,12 +37,13 @@ class PostDemo:
         }
         logging.info("开始运行登录接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.login_data)
-        logging.info("登录接口返回结果{}".format(res.json()))
+        logging.info("登录接口返回结果\n{}".format(res.json()))
         return res
 
 
 if __name__ == '__main__':
-    for n in range(1):
+    for n in range(5):
+        print("*" * 100)
         # 获取响应结果
         res = PostDemo().post_login()
         # print("text=", res.text)
@@ -50,7 +51,7 @@ if __name__ == '__main__':
         # print(res.headers)
         # print(type(res.json()))
         # 输出code状态码和msg文案
-        print(res.json()["code"])
-        print(res.json()["msg"])
-        print("*" * 100)
+        # print(res.json()["code"])
+        # print(res.json()["msg"])
+        # print("*" * 100)
         time.sleep(1)
