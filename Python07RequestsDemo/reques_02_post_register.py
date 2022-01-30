@@ -22,15 +22,12 @@ class PostDemo:
 
     def __init__(self):
         # 发送POST请求：提交表单数据
-        self.register_data = None
         base_url = "http://api.mypeng.site/futureloan"
         url_path = "/member/register"
         self.url = base_url + url_path
         self.phone = create_phone.create_a_phone()
         # print(self.phone)
         self.password = "1234567@"
-
-    def post_register(self):
         self.register_data = {
             "mobile_phone": self.phone,
             "pwd": self.password,
@@ -41,6 +38,8 @@ class PostDemo:
         self.heander_data = {
             "X-Lemonban-Media-Type": "lemonban.v1"
         }
+
+    def post_register(self):
         logging.info("运行注册接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.register_data)
         logging.info("注册接口返回结果\n{}".format(res.json()))

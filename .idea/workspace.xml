@@ -30,9 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update requests demo">
-      <change afterPath="$PROJECT_DIR$/Python07RequestsDemo/none_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_post_recharge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/test05_response.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,7 @@
       <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reques_03_post_login">
+  <component name="RunManager" selected="Python.reques_04_post_recharge">
     <configuration name="create_phone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,27 +122,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/create_phone.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="none_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/none_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test06_transaction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_04_post_recharge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,11 +180,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python06PymysqlDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python06PymysqlDemo/test06_transaction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_04_post_recharge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test04_params" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/test04_params.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,19 +215,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test06_transaction" />
       <item itemvalue="Python.create_phone" />
-      <item itemvalue="Python.none_test" />
       <item itemvalue="Python.reques_02_post_register" />
       <item itemvalue="Python.reques_03_post_login" />
+      <item itemvalue="Python.test04_params" />
+      <item itemvalue="Python.reques_04_post_recharge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reques_04_post_recharge" />
         <item itemvalue="Python.reques_03_post_login" />
         <item itemvalue="Python.reques_02_post_register" />
+        <item itemvalue="Python.test04_params" />
         <item itemvalue="Python.create_phone" />
-        <item itemvalue="Python.none_test" />
-        <item itemvalue="Python.test06_transaction" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643536711192</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update requests demo">
+      <created>1643545024038</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643545024038</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
