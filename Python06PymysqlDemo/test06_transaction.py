@@ -8,7 +8,7 @@ import pymysql
 
 try:
     # 获取数据库连接
-    conn = pymysql.connect(host="7x5.top", user="root", passwd="Lemon123456!", database="books", port=3306,
+    conn = pymysql.connect(host="api.mypeng.site", user="root", passwd="Lemon123456!", database="books", port=3306,
                            autocommit=True)
     # 设置是否自动提交事务
     # conn.autocommit(False)

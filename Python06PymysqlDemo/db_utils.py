@@ -16,7 +16,7 @@ class DBUtil:
     @classmethod
     def get_conn(cls):
         if cls.__conn is None:
-            cls.__conn = pymysql.connect(host="7x5.top", user="root", passwd="Lemon123456!", database="books",
+            cls.__conn = pymysql.connect(host="api.mypeng.site", user="root", passwd="Lemon123456!", database="books",
                                          port=3306)
         return cls.__conn
 
