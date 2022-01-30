@@ -55,4 +55,4 @@ if __name__ == '__main__':
         # print(res.json()["code"])
         # print(res.json()["msg"])
         # print("*" * 100)
-        time.sleep(1)
+        # time.sleep(1)
