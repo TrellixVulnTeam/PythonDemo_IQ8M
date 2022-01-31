@@ -29,9 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update md">
-      <change afterPath="$PROJECT_DIR$/Test/test.install.brew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add brew installs name">
+      <change beforePath="$PROJECT_DIR$/Test/test.install.brew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.install.brew.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643613664731</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add brew installs name">
+      <created>1643617891760</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1643617891760</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +494,8 @@
     <MESSAGE value="add python demo" />
     <MESSAGE value="update requests demo" />
     <MESSAGE value="update md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update md" />
+    <MESSAGE value="add brew installs name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add brew installs name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

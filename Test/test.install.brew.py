@@ -17,7 +17,8 @@ string_ = "bdw-gc, libffi, m4, libtool, libunistring, pkg-config, readline, guil
 list = string_.split(",")  # 按照符号把字符串分割放入列表里
 print(list)
 for n in list:
-    print(n)
+    print("*"*100)
+    print(n, "安装中")
     os.system("brew install {}".format(n))
-    print("安装中")
+    print(n, "安装结束，继续下一个")
     time.sleep(0.5)
