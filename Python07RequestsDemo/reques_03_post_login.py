@@ -34,11 +34,13 @@ class PostDemo:
             "pwd": self.password
         }
         self.heander_data = {
+            "Content-Type": "application/json",
             "X-Lemonban-Media-Type": "lemonban.v1"
         }
         logging.info("开始运行登录接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.login_data)
         logging.info("登录接口返回结果\n{}".format(res.json()))
+        time.sleep(0.5)
         return res
 
 

@@ -5,7 +5,7 @@
 # @Software:PyCharm
 
 # 请求url
-import requests as requests
+import requests
 
 url = "http://httpbin.org/get"
 # 请求头

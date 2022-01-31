@@ -36,6 +36,7 @@ class PostDemo:
 
         }
         self.heander_data = {
+            "Content-Type": "application/json",
             "X-Lemonban-Media-Type": "lemonban.v1"
         }
 
