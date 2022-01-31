@@ -106,7 +106,7 @@
       <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reques_06_patch_update">
+  <component name="RunManager" selected="Python.reques_05_post_withdraw">
     <configuration name="dfvdfbfg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,10 +221,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reques_05_post_withdraw" />
         <item itemvalue="Python.reques_06_patch_update" />
         <item itemvalue="Python.dfvdfbfg" />
         <item itemvalue="Python.reques_02_post_register" />
-        <item itemvalue="Python.reques_05_post_withdraw" />
         <item itemvalue="Python.reques_04_post_recharge" />
       </list>
     </recent_temporary>

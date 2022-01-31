@@ -51,7 +51,7 @@ class PostDemo:
 
 
 if __name__ == '__main__':
-    for n in range(10):
+    for n in range(1000):
         print("*" * 100)  # 唯一分隔符
         # 获取响应结果
         res = PostDemo().post_withdraw()
