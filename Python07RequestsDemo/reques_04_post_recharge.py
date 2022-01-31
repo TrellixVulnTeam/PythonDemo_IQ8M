@@ -47,7 +47,7 @@ class PostDemo:
             logging.info("开始运行充值接口")
             res = requests.post(self.url, headers=self.heander_data, json=self.recharge_data)
             logging.info("充值接口返回结果\n{}".format(res.json()))
-            time.sleep(0.5)
+            time.sleep(0.1)
             return res
 
 

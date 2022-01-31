@@ -47,7 +47,7 @@ class PostDemo:
             logging.info("开始运行修改昵称接口")
             res = requests.patch(self.url, headers=self.heander_data, json=self.update_data)
             logging.info("update接口返回结果\n{}".format(res.json()))
-            time.sleep(0.5)
+            time.sleep(0.1)
             return res
 
 
