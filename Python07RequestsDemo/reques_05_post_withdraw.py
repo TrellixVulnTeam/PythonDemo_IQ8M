@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding:utf-8 -*-
 # @Author:xiajian
-# @name: 体现
+# @name: 提现
 # @Email:812011745@qq.com
 # @Software:PyCharm
 
@@ -45,7 +45,6 @@ class PostDemo:
                 "X-Lemonban-Media-Type": "lemonban.v1"
             }
             logging.info("开始运行提现接口")
-            print(self.withdraw_data)
             res = requests.post(self.url, headers=self.heander_data, json=self.withdraw_data)
             logging.info("提现接口返回结果\n{}".format(res.json()))
             return res
