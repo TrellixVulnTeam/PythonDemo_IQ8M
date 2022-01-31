@@ -30,8 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update requests demo">
-      <change afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643607756463</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update requests demo">
+      <created>1643608666090</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643608666090</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
