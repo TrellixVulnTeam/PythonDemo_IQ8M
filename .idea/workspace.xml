@@ -30,7 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update requests demo">
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_withdraw.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_06_patch_update.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +105,8 @@
       <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reques_05_post_withdraw">
-    <configuration name="reques_01_get_func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.reques_06_patch_update">
+    <configuration name="dfvdfbfg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_01_get_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/dfvdfbfg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_03_post_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_02_post_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test06_header" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_06_patch_update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +202,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/test06_header.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_06_patch_update.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.reques_03_post_login" />
       <item itemvalue="Python.reques_04_post_recharge" />
-      <item itemvalue="Python.reques_01_get_func" />
-      <item itemvalue="Python.test06_header" />
       <item itemvalue="Python.reques_05_post_withdraw" />
+      <item itemvalue="Python.reques_02_post_register" />
+      <item itemvalue="Python.dfvdfbfg" />
+      <item itemvalue="Python.reques_06_patch_update" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reques_06_patch_update" />
+        <item itemvalue="Python.dfvdfbfg" />
+        <item itemvalue="Python.reques_02_post_register" />
         <item itemvalue="Python.reques_05_post_withdraw" />
         <item itemvalue="Python.reques_04_post_recharge" />
-        <item itemvalue="Python.test06_header" />
-        <item itemvalue="Python.reques_01_get_func" />
-        <item itemvalue="Python.reques_03_post_login" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643601705753</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update requests demo">
+      <created>1643601889838</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1643601889838</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

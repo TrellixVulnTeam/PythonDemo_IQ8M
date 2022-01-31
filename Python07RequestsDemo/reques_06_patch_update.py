@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 # -*- coding:utf-8 -*-
 # @Author:xiajian
-# @name: 提现
+# @name: 更新会员信息
 # @Email:812011745@qq.com
 # @Software:PyCharm
 
@@ -9,7 +9,6 @@ import time
 import logging
 import requests
 from Python07RequestsDemo import reques_03_post_login
-from Python07RequestsDemo import reques_04_post_recharge
 
 
 # 发送POST请求，请求体数据JSON格式
@@ -20,33 +19,35 @@ class PostDemo:
     def __init__(self):
         # 获取到ID，准备充值
         try:
-            member_id = reques_04_post_recharge.PostDemo().post_recharge().json()["data"]["id"]
-            self.withdraw_data = {
+            member_id = reques_03_post_login.PostDemo().post_login().json()["data"]["id"]
+            self.update_data = {
                 "member_id": member_id,
-                "amount": 6000
+                "reg_name": "ningmeng"
             }
             logging.info("获取到member_id：{}".format(member_id))
             base_url = "http://api.mypeng.site/futureloan"
-            url_path = "/member/withdraw"
+            url_path = "/member/update"
             self.url = base_url + url_path
 
         except:
-            logging.error("手机号不存在，换个手机号试试")
+            logging.error("手机号已被注册了，换个手机号试试")
             self.url = None
             return
 
-    def post_withdraw(self):
+    def patch_update(self):
         # print(self.url)
         if self.url is None:
             return
+            # logging.error("手机号已被注册了，换个手机号试试")
         else:
             self.heander_data = {
                 "Content-Type": "application/json",
                 "X-Lemonban-Media-Type": "lemonban.v1"
             }
-            logging.info("开始运行提现接口")
-            res = requests.post(self.url, headers=self.heander_data, json=self.withdraw_data)
-            logging.info("提现接口返回结果\n{}".format(res.json()))
+            logging.info("开始运行修改昵称接口")
+            res = requests.patch(self.url, headers=self.heander_data, json=self.update_data)
+            logging.info("update接口返回结果\n{}".format(res.json()))
+            time.sleep(0.5)
             return res
 
 
@@ -54,7 +55,7 @@ if __name__ == '__main__':
     for n in range(10):
         print("*" * 100)  # 唯一分隔符
         # 获取响应结果
-        res = PostDemo().post_withdraw()
+        res = PostDemo().patch_update()
         # print("text=", res.text)
         # print("json=", res.json())
         # print(res.headers)
