@@ -47,11 +47,12 @@ class PostDemo:
             logging.info("开始运行提现接口")
             res = requests.post(self.url, headers=self.heander_data, json=self.withdraw_data)
             logging.info("提现接口返回结果\n{}".format(res.json()))
+            time.sleep(0.01)
             return res
 
 
 if __name__ == '__main__':
-    for n in range(1000):
+    for n in range(10):
         print("*" * 100)  # 唯一分隔符
         # 获取响应结果
         res = PostDemo().post_withdraw()

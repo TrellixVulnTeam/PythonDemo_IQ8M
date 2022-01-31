@@ -30,8 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update requests demo">
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_post_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_post_recharge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_06_patch_update.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_06_patch_update.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,7 @@
       <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reques_05_post_withdraw">
+  <component name="RunManager" selected="Python.reques_06_patch_update">
     <configuration name="dfvdfbfg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,8 +220,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reques_05_post_withdraw" />
         <item itemvalue="Python.reques_06_patch_update" />
+        <item itemvalue="Python.reques_05_post_withdraw" />
         <item itemvalue="Python.dfvdfbfg" />
         <item itemvalue="Python.reques_02_post_register" />
         <item itemvalue="Python.reques_04_post_recharge" />
@@ -397,7 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643606991145</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update requests demo">
+      <created>1643607163920</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1643607163920</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update requests demo">
+      <created>1643607335987</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1643607335987</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
