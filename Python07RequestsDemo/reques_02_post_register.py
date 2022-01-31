@@ -49,7 +49,7 @@ class PostDemo:
 
 
 if __name__ == '__main__':
-    for n in range(1):
+    for n in range(5):
         # 获取响应结果
         res = PostDemo().post_register()
         # print("text=", res.text)
