@@ -11,7 +11,6 @@ import requests
 from Python07RequestsDemo import reques_03_post_login
 
 
-# 发送POST请求，请求体数据JSON格式
 class PostDemo:
     LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
     logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)

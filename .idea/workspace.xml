@@ -30,7 +30,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add brew installs name">
-      <change beforePath="$PROJECT_DIR$/Test/test.install.brew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.install.brew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python08UnitTest/unittest_01_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/create_phone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/get_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_02_01_18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_1_24_23_07_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_1_24_23_07__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,33 +95,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python07RequestsDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonDemo" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PythonDemo" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python07RequestsDemo" />
-      <recent name="$PROJECT_DIR$/内置方法" />
-      <recent name="$PROJECT_DIR$/Python05StringMethodDemo" />
-      <recent name="E:\Code\Python\PythonDemo\Python04DictionaryMethondDemo" />
-      <recent name="E:\Code\Python\PythonDemo\Python03SetMethodDemo" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
       <recent name="$PROJECT_DIR$" />
       <recent name="E:\Code\Python\PythonDemo\Test" />
       <recent name="E:\Code\Python\PythonDemo" />
       <recent name="E:\Code\Python\PythonDemo\APP操作" />
-      <recent name="E:\Code\Python\PythonDemo\文档表格操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test.install.brew">
-    <configuration name="dfvdfbfg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.register">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/dfvdfbfg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_04_get_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/get_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_06_post_withdraw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +179,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_06_post_withdraw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_07_patch_update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_07_patch_update.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test.install.brew" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test.install.brew.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,20 +234,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.dfvdfbfg" />
-      <item itemvalue="Python.reques_04_get_info" />
-      <item itemvalue="Python.reques_06_post_withdraw" />
-      <item itemvalue="Python.reques_07_patch_update" />
-      <item itemvalue="Python.test.install.brew" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test.install.brew" />
-        <item itemvalue="Python.reques_04_get_info" />
-        <item itemvalue="Python.reques_06_post_withdraw" />
-        <item itemvalue="Python.reques_07_patch_update" />
-        <item itemvalue="Python.dfvdfbfg" />
+        <item itemvalue="Python.register" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.run_suite" />
+        <item itemvalue="Python.get_time" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643617891760</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add brew installs name">
+      <created>1643618067027</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1643618067027</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

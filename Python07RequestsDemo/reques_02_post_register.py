@@ -5,10 +5,7 @@
 # @Email:812011745@qq.com
 # @Software:PyCharm
 
-# 请求TPshop项目的登录接口，请求数据（username: 13088888888, password: 123456, verify_code: 1234）
-# 登录接口URL：http://localhost/index.php?m=Home&c=User&a=do_login
 
-# 导包
 import logging
 import time
 
@@ -23,7 +20,7 @@ class PostDemo:
     def __init__(self):
         # 发送POST请求：提交表单数据
         base_url = "http://api.mypeng.site/futureloan"
-        url_path = "/member/register"
+        url_path = "/member/register.py"
         self.url = base_url + url_path
         self.phone = create_phone.create_a_phone()
         # print(self.phone)
