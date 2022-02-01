@@ -802,4 +802,4 @@ main = TestProgram
 ##############################################################################
 
 if __name__ == "__main__":
-    main(module=None, encodings="utf-8")
+    main(module=None)
