@@ -29,24 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add brew installs name">
-      <change afterPath="$PROJECT_DIR$/Python08UnitTest/unittest_01_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/create_phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/get_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/login.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/register.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_02_01_18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_1_24_23_07_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_1_24_23_07__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add and update some api">
+      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +112,28 @@
       <recent name="E:\Code\Python\PythonDemo\APP操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.register">
+  <component name="RunManager" selected="Python.HTMLTestRunner">
+    <configuration name="HTMLTestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,27 +147,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/get_time.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python.register" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.run_suite" />
-        <item itemvalue="Python.get_time" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643618067027</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add and update some api">
+      <created>1643711504181</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643711504181</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +510,8 @@
     <MESSAGE value="update requests demo" />
     <MESSAGE value="update md" />
     <MESSAGE value="add brew installs name" />
-    <option name="LAST_COMMIT_MESSAGE" value="add brew installs name" />
+    <MESSAGE value="add and update some api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add and update some api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
