@@ -29,25 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add brew installs name">
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python05StringMethodDemo/String_08_gettime_string_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python05StringMethodDemo/String_08_gettime_string_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/login.json" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/data/login.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date/register.json" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/data/register.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_02_01_18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add and update some api">
+      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,33 +79,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PythonDemo" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PythonDemo" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/date" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Code\Python\PythonDemo\Python09FutureloanApiTestcaseDemo" />
-      <recent name="E:\Code\Python\PythonDemo\Python09FutureloanApiTestcaseDemo\common" />
+      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
       <recent name="$PROJECT_DIR$" />
       <recent name="E:\Code\Python\PythonDemo\Test" />
       <recent name="E:\Code\Python\PythonDemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\Python\PythonDemo\Python09FutureloanApiTestcaseDemo\TestCase" />
-      <recent name="E:\Code\Python\PythonDemo\Python09FutureloanApiTestcaseDemo" />
-      <recent name="$PROJECT_DIR$/Python07RequestsDemo" />
-      <recent name="$PROJECT_DIR$/内置方法" />
-      <recent name="$PROJECT_DIR$/Python05StringMethodDemo" />
+      <recent name="E:\Code\Python\PythonDemo\APP操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ClassTest">
-    <configuration name="ClassTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python 测试.test_register.TestLogin 的 Python 测试">
+    <configuration name="HTMLTestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,12 +121,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python08UnitTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python08UnitTest/ClassTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +167,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/register.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -166,7 +176,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_register.TestLogin.test_login_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_03_post_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_register.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,60 +206,22 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestLogin.test_login_success&quot;" />
+      <option name="_new_target" value="&quot;test_register.TestLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_register.TestLogin.test_register_success" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestLogin.test_register_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.register" />
-      <item itemvalue="Python tests.Unittests in test_login.py" />
-      <item itemvalue="Python tests.Unittests for test_register.TestLogin.test_login_success" />
-      <item itemvalue="Python tests.Unittests for test_register.TestLogin.test_register_success" />
-      <item itemvalue="Python.ClassTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ClassTest" />
-        <item itemvalue="Python tests.Unittests for test_register.TestLogin.test_register_success" />
-        <item itemvalue="Python tests.Unittests for test_register.TestLogin.test_login_success" />
+        <item itemvalue="Python 测试.test_register.TestLogin 的 Python 测试" />
+        <item itemvalue="Python.reques_03_post_login" />
+        <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python.register" />
-        <item itemvalue="Python tests.Unittests in test_login.py" />
+        <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -248,8 +241,6 @@
       <workItem from="1642433894811" duration="2776000" />
       <workItem from="1642606162847" duration="1900000" />
       <workItem from="1643037090988" duration="713000" />
-      <workItem from="1643869100498" duration="471000" />
-      <workItem from="1643869834446" duration="8677000" />
     </task>
     <task id="LOCAL-00001" summary="add tqdm进度条demo">
       <created>1636285656180</created>
@@ -454,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643617891760</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add brew installs name">
+      <created>1643618067027</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1643618067027</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add and update some api">
+      <created>1643711504181</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643711504181</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +487,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -499,49 +503,8 @@
     <MESSAGE value="update requests demo" />
     <MESSAGE value="update md" />
     <MESSAGE value="add brew installs name" />
-    <option name="LAST_COMMIT_MESSAGE" value="add brew installs name" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="346" y="108" key="#Inspections" timestamp="1643872472108">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="346" y="108" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1643872472108" />
-    <state width="1397" height="290" key="GridCell.Tab.0.bottom" timestamp="1643878477264">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="290" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1643878477264" />
-    <state width="1397" height="290" key="GridCell.Tab.0.center" timestamp="1643878477264">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="290" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1643878477264" />
-    <state width="1397" height="290" key="GridCell.Tab.0.left" timestamp="1643878477263">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="290" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1643878477263" />
-    <state width="1397" height="290" key="GridCell.Tab.0.right" timestamp="1643878477264">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="290" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1643878477264" />
-    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1643876504370">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1643876504370" />
-    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1643876504370">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1643876504370" />
-    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1643876504370">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1643876504370" />
-    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1643876504370">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1643876504370" />
-    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643869116626">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="513" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1643869116626" />
+    <MESSAGE value="add and update some api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add and update some api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,25 +521,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_login_TestLogin_test_username_is_not_exist.coverage" NAME="Unittests for test_login.TestLogin.test_username_is_not_exist Coverage Results" MODIFIED="1643876094684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$ClassTest.coverage" NAME="ClassTest Coverage Results" MODIFIED="1643882858097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python08UnitTest" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_register_TestLogin_test_login_success.coverage" NAME="Unittests for test_register.TestLogin.test_login_success Coverage Results" MODIFIED="1643877862228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_in_test_login01_py.coverage" NAME="Unittests in test_login01.py Coverage Results" MODIFIED="1643877264962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$app.coverage" NAME="app Coverage Results" MODIFIED="1643874793015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_login_TestLogin_test_login_success.coverage" NAME="Unittests for test_login.TestLogin.test_login_success Coverage Results" MODIFIED="1643876929072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$utils.coverage" NAME="utils Coverage Results" MODIFIED="1643874942790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_login_TestLogin_test_login.coverage" NAME="Unittests for test_login.TestLogin.test_login Coverage Results" MODIFIED="1643876340337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$register.coverage" NAME="register Coverage Results" MODIFIED="1643877647979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_login_TestLogin.coverage" NAME="Unittests for test_login.TestLogin Coverage Results" MODIFIED="1643875552575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$reques_02_post_register.coverage" NAME="reques_02_post_register Coverage Results" MODIFIED="1643873716308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python07RequestsDemo" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_for_test_register_TestLogin_test_register_success.coverage" NAME="Unittests for test_register.TestLogin.test_register_success Coverage Results" MODIFIED="1643878477258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$reques_03_post_login.coverage" NAME="reques_03_post_login Coverage Results" MODIFIED="1643875172134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python07RequestsDemo" />
-    <SUITE FILE_PATH="coverage/PythonDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1643872278389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
-    <SUITE FILE_PATH="coverage/PythonDemo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1643871605175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
-    <SUITE FILE_PATH="coverage/PythonDemo$run_suite.coverage" NAME="run_suite Coverage Results" MODIFIED="1643875613470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
-    <SUITE FILE_PATH="coverage/PythonDemo$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1643877276241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-    <SUITE FILE_PATH="coverage/PythonDemo$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1643872560324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
   </component>
 </project>
