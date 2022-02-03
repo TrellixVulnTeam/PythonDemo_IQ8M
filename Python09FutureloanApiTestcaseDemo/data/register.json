@@ -1,8 +1,22 @@
 [
   {
+    "desc": "注册成功",
     "mobile_phone": "13012312334",
     "pwd": "1234567@",
-    "type": 1,
-    "regname": "regname12"
+    "type_int": 1,
+    "reg_name": "reg_name",
+    "status_code": 200,
+    "code": 0,
+    "msg": "OK"
+  },
+  {
+    "desc": "密码为空",
+    "mobile_phone": "",
+    "pwd": "",
+    "type_int": 1,
+    "reg_name": "reg_name",
+    "status_code": 200,
+    "code": 1,
+    "msg": "密码为空"
   }
 ]
