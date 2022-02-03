@@ -1,9 +1,9 @@
 import logging
 
-from Python09FutureloanApiTestcaseDemo import run_suite
+from Python09FutureloanApiTestcaseDemo.common import utils
 
+utils.init_log_config()
 
-# 初始化日志配置
-run_suite.init_log_config()
+# logging.info("api.__info__ test info....")
 
-logging.info("api.__info__ test info....")
+__all__ = ["login", "register"]

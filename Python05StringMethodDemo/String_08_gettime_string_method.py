@@ -19,7 +19,7 @@ if __name__ == '__main__':
     %A  Locale's full weekday name.
     %b  Locale's abbreviated month name.
     %B  Locale's full month name.
-    %c  Locale's appropriate date and time representation.
+    %c  Locale's appropriate data and time representation.
     %I  Hour (12-hour clock) as a decimal number [01,12].
     %p  Locale's equivalent of either AM or PM.
     """

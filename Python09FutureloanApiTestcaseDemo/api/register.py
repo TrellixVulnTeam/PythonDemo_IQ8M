@@ -3,17 +3,14 @@ import random
 import time
 
 from requests import request
-
-from Python09FutureloanApiTestcaseDemo import run_suite
-from Python09FutureloanApiTestcaseDemo.common import create_phone
-
-run_suite.init_log_config()
+from Python09FutureloanApiTestcaseDemo.common import utils
+from Python09FutureloanApiTestcaseDemo import api
 
 
 # 注册
-def login(mobile_phone, pwd, type_int, **kwargs):
+def register(mobile_phone, pwd, type_int, reg_name="Auto_Test"):
     # 注册URL
-    login_url = run_suite.BASE_URL + "/member/register"
+    login_url = utils.BASE_URL + "/member/register"
     ruquest_data = None
     if mobile_phone is not None:
         if ruquest_data is None:
@@ -27,6 +24,11 @@ def login(mobile_phone, pwd, type_int, **kwargs):
         if ruquest_data is None:
             ruquest_data = {}
         ruquest_data["type"] = type_int
+    if reg_name is not None:
+        if ruquest_data is None:
+            ruquest_data = {}
+        ruquest_data["reg_name"] = reg_name
+
     header_data = {
         "Content-Type": "application/json",
         "X-Lemonban-Media-Type": "lemonban.v1"
@@ -40,5 +42,6 @@ if __name__ == '__main__':
     # 拼接手机号
     phone = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
                              str(int(time.time()))[2::])
-    res = login(phone, "1234567@", 1)
+    res = register(phone, "1234567@", 1)
+    # res = register(phone, "1234567@", 1, 123)
     logging.info("main test res.json = {} \n".format(res.json()))
