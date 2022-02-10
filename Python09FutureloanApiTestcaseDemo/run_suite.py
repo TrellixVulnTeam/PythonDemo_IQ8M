@@ -7,12 +7,12 @@ from Python09FutureloanApiTestcaseDemo.tools.HTMLTestRunner import HTMLTestRunne
 suite = unittest.TestSuite()
 
 suite.addTest(unittest.makeSuite(TestLogin))
-# suite.addTest(unittest.makeSuite(TestEmp))
+# suite.addTest(unittest.makeSuite(Tregister))
 
-# unittest.TextTestRunner().run(suite)
+unittest.TextTestRunner().run(suite)
 print("111")
 
-# report_file = utils.BASE_DIR + "/report/report.html"
-# with open(report_file, "wb") as f:
-#     runner = HTMLTestRunner(f, title="ihrm接口测试报告", description="xxx")
-#     runner.run(suite)
+report_file = utils.BASE_DIR + "/report/report.html"
+with open(report_file, "wb") as f:
+    runner = HTMLTestRunner(f, title="ihrm接口测试报告", description="xxx")
+    runner.run(suite)
