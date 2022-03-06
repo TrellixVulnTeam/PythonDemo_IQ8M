@@ -6,7 +6,7 @@
 # @Software:PyCharm
 
 
-import logging
+from loguru import logger
 import time
 
 import requests
@@ -14,8 +14,6 @@ from Python07RequestsDemo import create_phone
 
 
 class PostDemo:
-    LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-    logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
     def __init__(self):
         # 发送POST请求：提交表单数据
@@ -34,12 +32,12 @@ class PostDemo:
         self.heander_data = {
             "X-Lemonban-Media-Type": "lemonban.v1",
         }
-        logging.info("request_data = {}".format(self.register_data))
+        logger.info("request_data = {}".format(self.register_data))
 
     def post_register(self):
-        logging.info("运行注册接口")
+        logger.info("运行注册接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.register_data)
-        logging.info("注册接口返回结果\n{}".format(res.json()))
+        logger.info("注册接口返回结果:  {}\n".format(res.json()))
         time.sleep(0.01)
         return res
 

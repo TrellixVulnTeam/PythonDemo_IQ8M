@@ -28,7 +28,7 @@ class LoginApi:
 
         logger.info("开始请求登录接口")
         res = requests.post(self.login_url, json=ruquest_data, headers=header_data)
-        logger.info(res.json())
+        logger.info(f"res结果： {res.json()}")
         return res
 
 

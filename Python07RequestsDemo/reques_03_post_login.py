@@ -6,14 +6,12 @@
 # @Software:PyCharm
 
 import time
-import logging
+from loguru import logger
 import requests
 from Python07RequestsDemo import reques_02_post_register
 
 
 class PostDemo:
-    LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-    logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
     def __init__(self):
         # 发送POST请求：提交表单数据
@@ -36,9 +34,9 @@ class PostDemo:
             "Content-Type": "application/json",
             "X-Lemonban-Media-Type": "lemonban.v1"
         }
-        logging.info("开始运行登录接口")
+        logger.info("开始运行登录接口")
         res = requests.post(self.url, headers=self.heander_data, json=self.login_data)
-        logging.info("登录接口返回结果\n{}".format(res.json()))
+        logger.info("登录接口返回结果:  {}\n".format(res.json()))
         time.sleep(0.01)
         return res
 

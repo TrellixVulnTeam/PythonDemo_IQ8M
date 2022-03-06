@@ -30,18 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo">
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_03_06_17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_03_06_18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_03_06_19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_login01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/create_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/create_phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/data/login.json" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/data/login.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +115,70 @@
       <recent name="E:\Code\Python\PythonDemo\APP操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_suite">
+  <component name="RunManager" selected="Python.login">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reques_02_post_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reques_03_post_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,55 +214,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_login01.TestLogin.test_pwd_is_error 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login01.TestLogin.test_pwd_is_error&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_login01.TestLogin.test_req_param_is_null 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login01.TestLogin.test_req_param_is_null&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_login01.TestLogin.test_username_is_not_exist 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login01.TestLogin.test_username_is_not_exist&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.reques_02_post_register" />
+        <item itemvalue="Python.reques_03_post_login" />
         <item itemvalue="Python.run_suite" />
         <item itemvalue="Python 测试.test_login01.TestLogin 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login01.TestLogin.test_req_param_is_null 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login01.TestLogin.test_pwd_is_error 的 Python 测试" />
-        <item itemvalue="Python 测试.test_login01.TestLogin.test_username_is_not_exist 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646556185101</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update some demo">
+      <created>1646566418894</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1646566418894</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
