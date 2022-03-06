@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time: 2022/2/17 11:13 上午
 # @Author: xiajian
-# @File: GetMockDemo.py
+# @File: PostMockDemo.py
 # @description: 启动一个post请求的接口服务,通过参数的key返回对应擦值
 
 
