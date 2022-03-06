@@ -6,6 +6,8 @@ from Python09FutureloanApiTestcaseDemo.common import utils
 import json
 from parameterized import parameterized
 
+from Python09FutureloanApiTestcaseDemo.common.utils import init_log_config
+
 
 # 构造测试数据，读取JSON文件
 # [(), (), ()]
@@ -21,24 +23,32 @@ def build_data():
             msg = case_data.get("msg")
             test_data.append((mobile_phone, pwd, status_code, code, msg))
         print(test_data)
-        logging.info("test_data={}".format(test_data))
+        logging.info(" Test_data={}".format(test_data))
     return test_data
 
 
 class TestLogin(unittest.TestCase):
+
     @classmethod
     def setUpClass(cls) -> None:
+        init_log_config()
         cls.login_api = LoginApi()
 
     # 登录
     @parameterized.expand(build_data)
-    def test_login(self, mobile_phone, pwd, status_code, code, msg):
+    def test_login(self, mobile_phone, pwd, status_code, datacode, msg):
+        print("执行了这个方法 test_login")
+        logging.info("打印参数 {}，{}，{}，{}，{}".format(mobile_phone, pwd, status_code, datacode, msg))
         # 登录
-        response = self.login_api.login(mobile_phone, pwd)
-        json_data = response.json()
-        logging.info("json_data={}".format(json_data))
+        res = self.login_api.login(mobile_phone, pwd)
+        json_data = res.json()
+        logging.info("json_data :={}".format(json_data))
         # 断言
-        utils.common_assert(self, response, status_code, code, msg)
+        # utils.common_assert(self, response, status_code)
+        print("*** " * 10)
+        print(json_data["code"])
+        print("*** " * 10)
+        self.assertEqual(json_data["code"], datacode, "测试")
         # 保存token数据
         # if success:
         #     token = json_data.get("data")
@@ -76,7 +86,7 @@ class TestLogin(unittest.TestCase):
     @unittest.skip
     def test_username_is_not_exist(self):
         # 测试数据
-        mobile = "13888889919"
+        mobile = "13888889969"
         pwd = "123456"
 
         # 登录
@@ -121,4 +131,4 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, False, 99999, "系统繁忙")
+        utils.common_assert(self, response, 200, 99999, "系统繁忙")

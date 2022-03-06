@@ -1,20 +1,18 @@
 [
   {
     "desc": "登录成功",
-    "mobile_phone": "15543875172",
+    "mobile_phone": "13746560880",
     "pwd": "1234567@",
     "status_code": 200,
-    "success": true,
     "code": 0,
     "msg": "OK"
   },
   {
-    "desc": "账号不存在",
-    "mobile_phone": "13888889919",
+    "desc": "账号信息错误",
+    "mobile_phone": "13232405370",
     "pwd": "123456",
     "status_code": 200,
-    "success": false,
-    "code": 20001,
+    "code": 1001,
     "msg": "用户名或密码错误"
   }
 ]

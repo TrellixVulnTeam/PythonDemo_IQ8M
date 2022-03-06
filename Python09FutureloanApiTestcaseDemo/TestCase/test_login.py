@@ -1,9 +1,9 @@
 import unittest
-import logging
+from loguru import logger
 
 from Python09FutureloanApiTestcaseDemo.api.login import LoginApi
 from Python09FutureloanApiTestcaseDemo.common import utils
-import json
+
 from parameterized import parameterized
 
 
@@ -22,7 +22,7 @@ class TestLogin(unittest.TestCase):
         # 登录
         response = self.login_api.login(mobile, pwd)
         json_data = response.json()
-        logging.info("json_data={}".format(json_data))
+        logger.info("json_data={}".format(json_data))
 
         # 断言
         utils.common_assert(self, response, 200, 0, "OK")

@@ -1,0 +1,8 @@
+2022-03-06 17:57:50,394 INFO [root] [login.py(login:32)] - 开始请求登录接口
+2022-03-06 17:57:50,394 INFO [root] [login.py(login:32)] - 开始请求登录接口
+2022-03-06 17:57:50,934 INFO [root] [test_login.py(test_login_success:25)] - json_data={'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-03-06 17:57:50,934 INFO [root] [test_login.py(test_login_success:25)] - json_data={'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-03-06 17:59:01,371 INFO [root] [login.py(login:32)] - 开始请求登录接口
+2022-03-06 17:59:01,371 INFO [root] [login.py(login:32)] - 开始请求登录接口
+2022-03-06 17:59:01,409 INFO [root] [test_login.py(test_login_success:25)] - json_data={'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-03-06 17:59:01,409 INFO [root] [test_login.py(test_login_success:25)] - json_data={'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}

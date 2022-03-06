@@ -4,7 +4,7 @@
 # @name: 生成手机号
 # @Email:812011745@qq.com
 # @Software:PyCharm
-
+from loguru import logger
 import random
 import time
 
@@ -26,5 +26,5 @@ def create_a_phone():
 if __name__ == '__main__':
     for i in range(10):
         phone = create_a_phone()
-        print(phone)
+        logger.info(phone)
         time.sleep(1)

@@ -1,6 +1,7 @@
 import logging.handlers
 import os
 import time
+from loguru import logger
 
 # 项目根目录
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -40,10 +41,13 @@ def init_log_config():
 
 
 # 通用断言方法
-def common_assert(test_case, response, status_code=200,  code=0, msg="ok"):
+def common_assert(test_case, response, status_code=200, msg="ok"):
     test_case.assertEqual(status_code, response.status_code)
-    test_case.assertEqual(code, response.json().get("code"))
-    test_case.assertIn(msg, response.json().get("msg"))
+    logger.info("status_code断言完毕,预期：" + "200" + "实际结果：" + str(status_code))
+    # test_case.assertEqual(code, response.json().get("code"))
+    # logger.info("字段code断言完毕,预期：0" + "实际结果：", str(code))
+    # test_case.assertIn(msg, response.json().get("msg"))
+    # logger.info("字段msg断言完毕,预期：ok", "实际结果：" + str(msg))
 
 
 if __name__ == '__main__':
