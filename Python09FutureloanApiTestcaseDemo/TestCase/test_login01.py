@@ -22,7 +22,7 @@ def build_data():
             code = case_data.get("code")
             msg = case_data.get("msg")
             test_data.append((mobile_phone, pwd, status_code, code, msg))
-        print(test_data)
+        # print(test_data)
         logging.info(" Test_data={}".format(test_data))
     return test_data
 
@@ -45,10 +45,12 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data :={}".format(json_data))
         # 断言
         # utils.common_assert(self, response, status_code)
-        print("*** " * 10)
-        print(json_data["code"])
-        print("*** " * 10)
-        self.assertEqual(json_data["code"], datacode, "测试")
+        # print("*** " * 10)
+        # print(json_data["code"])
+        # print("*** " * 10)
+        self.assertEqual(json_data["code"], datacode, "断言返回消息体的code码")
+        self.assertEqual(json_data["msg"], msg, "断言msg消息")
+        logging.info("断言结束，用例执行结束")
         # 保存token数据
         # if success:
         #     token = json_data.get("data")

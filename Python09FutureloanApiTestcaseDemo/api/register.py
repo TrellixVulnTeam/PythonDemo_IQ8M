@@ -1,4 +1,4 @@
-import logging
+from loguru import logger
 import random
 import time
 
@@ -31,8 +31,8 @@ class Register_Api:
                 ruquest_data = {}
             ruquest_data["reg_name"] = reg_name
 
-        logging.info("requesdate = {}".format(ruquest_data))
-        logging.info("开始请求注册接口")
+        logger.info("requesdate = {}".format(ruquest_data))
+        logger.info("开始请求注册接口")
         return request('post', login_url, json=ruquest_data, headers=utils.header_data)
 
 
@@ -42,4 +42,4 @@ if __name__ == '__main__':
                              str(int(time.time()))[2::])
     res = Register_Api.register(phone, "1234567@", 1)
     # res = register(phone, "1234567@", 1, 123)
-    logging.info("main test res.json = {} \n".format(res.json()))
+    logger.info("main test res.json = {} \n".format(res.json()))
