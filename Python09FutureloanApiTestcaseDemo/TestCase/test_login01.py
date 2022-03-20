@@ -121,7 +121,7 @@ class TestLogin(unittest.TestCase):
         utils.common_assert(self, response, 200, False, 20001, "用户名或密码错误")
 
     # 请求参数为空
-    @unittest.skip
+    # @unittest.skip
     def test_req_param_is_null(self):
         # 测试数据
         mobile = None
@@ -133,4 +133,4 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, 99999, "系统繁忙")
+        utils.common_assert(self, response, 200, 1004)

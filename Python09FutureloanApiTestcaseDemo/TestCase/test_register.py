@@ -35,27 +35,27 @@ class TestLogin(unittest.TestCase):
         cls.register_api = Register_Api
 
     @parameterized.expand(build_data)
-    def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
+    def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code):
         # 登录
         response = self.register_api.register(mobile_phone, pwd, type_int, reg_name, )
         json_data = response.json()
         logging.info("json_data={}\n".format(json_data))
         # 断言
-        utils.common_assert(self, response, status_code, code, msg)
+        utils.common_assert(self, response, status_code, code)
 
-    @unittest.skip
+    # @unittest.skip
     def test_register_success(self):
         # 测试数据
         mobile = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
                                   str(int(time.time()))[2::])
-        pwd = "1234567@"
+        pwd = "12345678"
         type_int_int = 1
 
-        # 登录
+        # 注册
         response = self.register_api.register(mobile, pwd, type_int_int)
         json_data = response.json()
-        # print(json_data)
+        print(json_data)
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, 0, "OK")
+        utils.common_assert(self, response, 200, 0)

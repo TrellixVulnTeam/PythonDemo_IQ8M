@@ -16,8 +16,8 @@ class TestLogin(unittest.TestCase):
 
     def test_login_success(self):
         # 测试数据
-        mobile = "15943873886"
-        pwd = "1234567@"
+        mobile = "13216365136"
+        pwd = "12345678"
 
         # 登录
         response = self.login_api.login(mobile, pwd)
@@ -25,9 +25,9 @@ class TestLogin(unittest.TestCase):
         logger.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, 0, "OK")
+        utils.common_assert(self, response, 200, 0)
 
         # 保存token数据
         token = json_data["data"]["token_info"]["token"]
         utils.header_data["Authorization"] = "Bearer " + token
-        print("utils.header_data=\n", utils.header_data)
+        logger.info("utils.header_data=\n"+str(utils.header_data))

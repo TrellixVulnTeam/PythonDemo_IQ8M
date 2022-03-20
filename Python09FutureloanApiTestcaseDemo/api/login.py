@@ -23,7 +23,7 @@ class LoginApi:
             ruquest_data["pwd"] = pwd
 
         header_data = {
-            "X-Lemonban-Media-Type": "lemonban.v1"
+            "X-Lemonban-Media-Type": "lemonban.v2"
         }
 
         logger.info("开始请求登录接口")

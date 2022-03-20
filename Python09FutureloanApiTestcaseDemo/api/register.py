@@ -10,7 +10,7 @@ from Python09FutureloanApiTestcaseDemo import api
 class Register_Api:
     # 注册
     @staticmethod
-    def register(mobile_phone, pwd, type_int, reg_name="Auto_Test"):
+    def register(mobile_phone, pwd, type_int, reg_name="AutoTestPy"):
         # 注册URL
         login_url = utils.BASE_URL + "/member/register"
         ruquest_data = None
