@@ -1,21 +1,14 @@
 """
 A TestRunner for use with the Python unit testing framework. It
 generates a HTML report to show the result at a glance.
-
 The simplest way to use this is to invoke its main method. E.g.
-
     import unittest
     import HTMLTestRunner
-
     ... define your tests ...
-
     if __name__ == '__main__':
         HTMLTestRunner.main()
-
-
 For more customization options, instantiates a HTMLTestRunner object.
 HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
-
     # output to a file
     fp = file('my_report.html', 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
@@ -23,23 +16,17 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
                 title='My unit test',
                 description='This demonstrates the report output by HTMLTestRunner.'
                 )
-
     # Use an external stylesheet.
     # See the Template_mixin class for more customizable options
     runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
-
     # run the test
     runner.run(my_test_suite)
-
-
 ------------------------------------------------------------------------
 Copyright (c) 2004-2007, Wai Yip Tung
 All rights reserved.
-
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
-
 * Redistributions of source code must retain the above copyright notice,
   this list of conditions and the following disclaimer.
 * Redistributions in binary form must reproduce the above copyright
@@ -48,7 +35,6 @@ met:
 * Neither the name Wai Yip Tung nor the names of its contributors may be
   used to endorse or promote products derived from this software without
   specific prior written permission.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
 IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
 TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
@@ -69,22 +55,21 @@ __version__ = "0.8.2"
 
 """
 Change History
-
 Version 0.8.2
 * Show output inline instead of popup window (Viorel Lupu).
-
 Version in 0.8.1
 * Validated XHTML (Wolfgang Borgert).
 * Added description of test classes and test cases.
-
 Version in 0.8.0
 * Define Template_mixin class for customization.
 * Workaround a IE 6 bug that it does not treat <script> block as CDATA.
-
 Version in 0.7.1
 * Back port to Python 2.3 (Frank Horowitz).
 * Fix missing scroll bars in detail log (Podi).
 """
+
+# TODO: color stderr
+# TODO: simplify javascript using ,ore than 1 class in the class attribute?
 
 import datetime
 import io
@@ -131,9 +116,7 @@ stderr_redirector = OutputRedirector(sys.stderr)
 class Template_mixin(object):
     """
     Define a HTML template for report customerization and generation.
-
     Overall structure of an HTML report
-
     HTML
     +------------------------+
     |<html>                  |
@@ -192,7 +175,6 @@ class Template_mixin(object):
 <body>
 <script language="javascript" type="text/javascript"><!--
 output_list = Array();
-
 /* level - 0:Summary; 1:Failed; 2:All */
 function showCase(level) {
     trs = document.getElementsByTagName("tr");
@@ -217,8 +199,6 @@ function showCase(level) {
         }
     }
 }
-
-
 function showClassDetail(cid, count) {
     var id_list = Array(count);
     var toHide = 1;
@@ -246,8 +226,6 @@ function showClassDetail(cid, count) {
         }
     }
 }
-
-
 function showTestDetail(div_id){
     var details_div = document.getElementById(div_id)
     var displayState = details_div.style.display
@@ -260,15 +238,12 @@ function showTestDetail(div_id){
         details_div.style.display = 'none'
     }
 }
-
-
 function html_escape(s) {
     s = s.replace(/&/g,'&amp;');
     s = s.replace(/</g,'&lt;');
     s = s.replace(/>/g,'&gt;');
     return s;
 }
-
 /* obsoleted by detail in <div>
 function showOutput(id, name) {
     var w = window.open("", //url
@@ -284,11 +259,9 @@ function showOutput(id, name) {
 }
 */
 --></script>
-
 %(heading)s
 %(report)s
 %(ending)s
-
 </body>
 </html>
 """
@@ -305,35 +278,29 @@ function showOutput(id, name) {
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
 pre         { }
-
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
-	font-size: 16pt;
-	color: gray;
+   font-size: 16pt;
+   color: gray;
 }
 .heading {
     margin-top: 0ex;
     margin-bottom: 1ex;
 }
-
 .heading .attribute {
     margin-top: 1ex;
     margin-bottom: 0;
 }
-
 .heading .description {
     margin-top: 4ex;
     margin-bottom: 6ex;
 }
-
 /* -- css div popup ------------------------------------------------------------------------ */
 a.popup_link {
 }
-
 a.popup_link:hover {
     color: red;
 }
-
 .popup_window {
     display: none;
     position: relative;
@@ -347,7 +314,6 @@ a.popup_link:hover {
     font-size: 8pt;
     width: 500px;
 }
-
 }
 /* -- report ------------------------------------------------------------------------ */
 #show_detail_line {
@@ -377,12 +343,9 @@ a.popup_link:hover {
 .errorCase  { color: #c00; font-weight: bold; }
 .hiddenRow  { display: none; }
 .testcase   { margin-left: 2em; }
-
-
 /* -- ending ---------------------------------------------------------------------- */
 #ending {
 }
-
 </style>
 """
 
@@ -395,7 +358,6 @@ a.popup_link:hover {
 %(parameters)s
 <p class='description'>%(description)s</p>
 </div>
-
 """  # variables: (title, parameters, description)
 
     HEADING_ATTRIBUTE_TMPL = """<p class='attribute'><strong>%(name)s:</strong> %(value)s</p>
@@ -455,11 +417,9 @@ a.popup_link:hover {
 <tr id='%(tid)s' class='%(Class)s'>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'>
-
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_%(tid)s')" >
         %(status)s</a>
-
     <div id='div_%(tid)s' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
         <a onfocus='this.blur();' onclick="document.getElementById('div_%(tid)s').style.display = 'none' " >
@@ -470,7 +430,6 @@ a.popup_link:hover {
         </pre>
     </div>
     <!--css div popup end-->
-
     </td>
 </tr>
 """  # variables: (tid, Class, style, desc, status)
@@ -613,7 +572,7 @@ class HTMLTestRunner(Template_mixin):
         test(result)
         self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
-        print(sys.stderr, '\nTimeElapsed: %s' % (self.stopTime - self.startTime))
+        print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime - self.startTime))
         return result
 
     def sortResult(self, result_list):
@@ -666,7 +625,7 @@ class HTMLTestRunner(Template_mixin):
             report=report,
             ending=ending,
         )
-        self.stream.write(output.encode('utf8'))
+        self.stream.write(output)
 
     def _generate_stylesheet(self):
         return self.STYLESHEET_TMPL
@@ -742,11 +701,13 @@ class HTMLTestRunner(Template_mixin):
 
         # o and e should be byte string because they are collected from stdout and stderr?
         if isinstance(o, str):
+            # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # uo = unicode(o.encode('string_escape'))
-            uo = o
+            uo = e
         else:
             uo = o
         if isinstance(e, str):
+            # TODO: some problem with 'string_escape': it escape \n and mess up formating
             # ue = unicode(e.encode('string_escape'))
             ue = e
         else:

@@ -29,7 +29,7 @@ def build_data():
     return test_data
 
 
-class TestLogin(unittest.TestCase):
+class TestRegister(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.register_api = Register_Api
