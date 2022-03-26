@@ -29,13 +29,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo">
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_03_21_23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/log/futureloan_2022_03_22_00.log" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo and add 冰墩墩">
+      <change afterPath="$PROJECT_DIR$/MockDemo/GetMockDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MockDemo/Get_PostMockDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MockDemo/PostMockDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase/test_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +116,8 @@
       <recent name="E:\Code\Python\PythonDemo\APP操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.test_register.TestRegister 的 Python 测试">
-    <configuration name="HTMLTestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.PostMockDemo">
+    <configuration name="GetMockDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/tools/HTMLTestRunner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MockDemo/GetMockDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PostMockDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/run_suite.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MockDemo/PostMockDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,55 +159,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_register.TestLogin.test_register_success 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="MockDemo.Get_PostMockDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestLogin.test_register_success&quot;" />
+      <option name="_new_target" value="&quot;MockDemo.Get_PostMockDemo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_register.TestRegister 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="MockDemo.PostMockDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestRegister&quot;" />
+      <option name="_new_target" value="&quot;MockDemo.PostMockDemo&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_register.TestRegister.test_login 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python 测试 (Get_PostMockDemo.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/TestCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_register.TestRegister.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MockDemo/Get_PostMockDemo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.test_register.TestRegister 的 Python 测试" />
-        <item itemvalue="Python 测试.test_register.TestRegister.test_login 的 Python 测试" />
-        <item itemvalue="Python.run_suite" />
-        <item itemvalue="Python.HTMLTestRunner" />
-        <item itemvalue="Python 测试.test_register.TestLogin.test_register_success 的 Python 测试" />
+        <item itemvalue="Python.PostMockDemo" />
+        <item itemvalue="Python.GetMockDemo" />
+        <item itemvalue="Python 测试.Python 测试 (Get_PostMockDemo.py 内)" />
+        <item itemvalue="Python 测试.MockDemo.PostMockDemo 的 Python 测试" />
+        <item itemvalue="Python 测试.MockDemo.Get_PostMockDemo 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -464,49 +463,7 @@
       <option name="project" value="LOCAL" />
       <updated>1644456676304</updated>
     </task>
-    <task id="LOCAL-00034" summary="update some demo and add 冰墩墩">
-      <created>1645115827225</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1645115827225</updated>
-    </task>
-    <task id="LOCAL-00035" summary="update some demo">
-      <created>1646556185101</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1646556185101</updated>
-    </task>
-    <task id="LOCAL-00036" summary="update some demo">
-      <created>1646566418894</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1646566418894</updated>
-    </task>
-    <task id="LOCAL-00037" summary="update some demo">
-      <created>1646581185315</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1646581185315</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update some demo">
-      <created>1647359937563</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1647359937563</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update some demo">
-      <created>1647789786014</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1647789786014</updated>
-    </task>
-    <option name="localTasksCounter" value="40" />
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,8 +510,7 @@
     <MESSAGE value="add and update some api" />
     <MESSAGE value="update some api" />
     <MESSAGE value="update some demo and add 冰墩墩" />
-    <MESSAGE value="update some demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update some demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some demo and add 冰墩墩" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
