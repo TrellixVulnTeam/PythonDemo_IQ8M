@@ -1,9 +1,6 @@
 #! /usr/bin/env python3
 # -*- coding:utf-8 -*-
-# @Author:xiajian
-# @name: 生成手机号
-# @Email:812011745@qq.com
-# @Software:PyCharm
+
 
 import random
 import time

@@ -29,61 +29,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo">
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/down.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/install.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/pytest插件list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/Appium-Python-Client-1.0.2.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/PyMySQL-0.10.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/PyYAML-5.3.1-cp35-cp35m-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/PyYAML-5.3.1-cp36-cp36m-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/apipkg-1.5-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/atomicwrites-1.4.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/attrs-20.2.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/certifi-2020.6.20-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/chardet-3.0.4-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/colorama-0.4.3-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/coverage-5.3-cp36-cp36m-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/enum34-1.1.10-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/execnet-1.7.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/idna-2.10-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/importlib_metadata-2.0.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/iniconfig-1.0.1-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/lxml-4.5.2-cp36-cp36m-win_amd64.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/namedlist-1.8-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/packaging-20.4-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pip-20.2.2-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pip-20.2.3-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pluggy-0.13.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/py-1.9.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pyparsing-2.4.7-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest-6.1.0-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest-cache-1.0.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest-picked-0.4.4.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest-sugar-0.9.4.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_allure_adaptor-1.7.10-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_base_url-1.4.2-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_cov-2.10.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_django-3.10.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_forked-1.3.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_html-2.1.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_metadata-1.10.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_ordering-0.6-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_rerunfailures-9.1.1-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_selenium-2.0.1-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_tldr-0.2.2-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_variables-1.9.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/pytest_xdist-2.1.0-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/requests-2.24.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/selenium-3.141.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/setuptools-50.3.0-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/six-1.15.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/tenacity-6.2.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/termcolor-1.1.0.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/toml-0.10.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/urllib3-1.25.10-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新鲜东西/python自动化依赖下载安装/spark-libs/zipp-3.2.0-py3-none-any.whl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python06PymysqlDemo/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python06PymysqlDemo/db_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/create_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/create_phone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_recharge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,9 +72,6 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20aVWouqUt7RtDBIQBTncLXXB6O" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -132,7 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/新鲜东西" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,15 +107,15 @@
       <recent name="E:\Code\Python\PythonDemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\PythonDemo" />
       <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
       <recent name="E:\Code\Python\PythonDemo\新鲜东西\樱花树" />
       <recent name="$PROJECT_DIR$/Test" />
       <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
-      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.樱花树源码.pyw">
-    <configuration name="GetMockDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python 测试.Unittest in unittest_01_demo.py">
+    <configuration name="reques_01_get_func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,12 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MockDemo/GetMockDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_01_get_func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PostMockDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_02_post_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,12 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MockDemo/PostMockDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="樱花树_加弹框" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_03_post_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,12 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新鲜东西/樱花树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新鲜东西/樱花树/樱花树_加弹框.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="樱花树源码.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reques_04_get_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,12 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新鲜东西/樱花树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新鲜东西/樱花树/樱花树源码.pyw" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,30 +199,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MockDemo.PostMockDemo 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittest in unittest_01_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python08UnitTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;MockDemo.PostMockDemo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python08UnitTest/unittest_01_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.樱花树源码.pyw" />
-        <item itemvalue="Python.樱花树_加弹框" />
-        <item itemvalue="Python.PostMockDemo" />
-        <item itemvalue="Python.GetMockDemo" />
+        <item itemvalue="Python 测试.Unittest in unittest_01_demo.py" />
+        <item itemvalue="Python.reques_04_get_info" />
+        <item itemvalue="Python.reques_03_post_login" />
+        <item itemvalue="Python.reques_02_post_register" />
+        <item itemvalue="Python.reques_01_get_func" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -297,7 +243,8 @@
       <workItem from="1642433894811" duration="2776000" />
       <workItem from="1642606162847" duration="1900000" />
       <workItem from="1643037090988" duration="713000" />
-      <workItem from="1650122583007" duration="812000" />
+      <workItem from="1650122583007" duration="940000" />
+      <workItem from="1650894496572" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="add tqdm进度条demo">
       <created>1636285656180</created>
@@ -537,7 +484,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650123170910</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="update some demo">
+      <created>1650123427333</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1650123427333</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update some demo">
+      <created>1650123497874</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1650123497874</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,30 +554,46 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1650122867125" />
-    <state width="1637" height="292" key="GridCell.Tab.0.bottom" timestamp="1650123148272">
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1651136065983">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="292" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1650123148272" />
-    <state width="1637" height="292" key="GridCell.Tab.0.center" timestamp="1650123148272">
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1651136065983">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="292" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1650123148272" />
-    <state width="1637" height="292" key="GridCell.Tab.0.left" timestamp="1650123148272">
+    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1651136065983">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="292" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1650123148272" />
-    <state width="1637" height="292" key="GridCell.Tab.0.right" timestamp="1650123148272">
+    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1651136065983">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="292" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1650123148272" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1651136065983">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1651136065983">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1651136065983">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1651136065983">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
     <state x="341" y="149" key="SettingsEditor" timestamp="1650122917297">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="341" y="149" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1650122917297" />
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1650123204286">
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1650123499179">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1650123204286" />
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1650123499179" />
     <state x="633" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650122629550">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -640,11 +617,17 @@
           <line>33</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonDemo$_.coverage" NAME="樱花树_加弹框 Coverage Results" MODIFIED="1650123036508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/新鲜东西/樱花树" />
-    <SUITE FILE_PATH="coverage/PythonDemo$_pyw.coverage" NAME="樱花树源码.pyw Coverage Results" MODIFIED="1650123100217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/新鲜东西/樱花树" />
   </component>
 </project>

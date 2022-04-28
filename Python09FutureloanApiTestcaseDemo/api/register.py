@@ -3,11 +3,11 @@ import random
 import time
 
 from requests import request
-from Python09FutureloanApiTestcaseDemo.common import utils
-from Python09FutureloanApiTestcaseDemo import api
+from common import utils
+import api
 
 
-class Register_Api:
+class RegisterApi:
     # 注册
     @staticmethod
     def register(mobile_phone, pwd, type_int, reg_name="AutoTestPy"):
@@ -40,6 +40,6 @@ if __name__ == '__main__':
     # 拼接手机号
     phone = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
                              str(int(time.time()))[2::])
-    res = Register_Api.register(phone, "1234567@", 1)
+    res = RegisterApi.register(phone, "1234567@", 1)
     # res = register(phone, "1234567@", 1, 123)
     logger.info("main test res.json = {} \n".format(res.json()))

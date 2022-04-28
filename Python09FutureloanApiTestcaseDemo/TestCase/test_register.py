@@ -3,8 +3,8 @@ import time
 import unittest
 import logging
 
-from Python09FutureloanApiTestcaseDemo.api.register import Register_Api
-from Python09FutureloanApiTestcaseDemo.common import utils
+from api.register import RegisterApi
+from common import utils
 import json
 from parameterized import parameterized
 
@@ -32,16 +32,17 @@ def build_data():
 class TestRegister(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.register_api = Register_Api
+        cls.register_api = RegisterApi
 
+    # 取参数化配置注册
     @parameterized.expand(build_data)
-    def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code):
-        # 登录
-        response = self.register_api.register(mobile_phone, pwd, type_int, reg_name, )
+    def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
+        # 注册
+        response = self.register_api.register(mobile_phone, pwd, type_int, reg_name)
         json_data = response.json()
         logging.info("json_data={}\n".format(json_data))
         # 断言
-        utils.common_assert(self, response, status_code, code)
+        utils.common_assert(self, response, status_code, code, msg)
 
     # @unittest.skip
     def test_register_success(self):
@@ -49,13 +50,13 @@ class TestRegister(unittest.TestCase):
         mobile = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
                                   str(int(time.time()))[2::])
         pwd = "12345678"
-        type_int_int = 1
+        type_int = 1
 
         # 注册
-        response = self.register_api.register(mobile, pwd, type_int_int)
+        response = self.register_api.register(mobile, pwd, type_int)
         json_data = response.json()
         print(json_data)
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, 0)
+        utils.common_assert(self, response, 200, 0, "OK")

@@ -19,7 +19,7 @@ class PostDemo:
         self.login_data = None
         data = reques_02_post_register.PostDemo()
         data.post_register()  # 运行注册接口，获取新鲜的手机号密码登录
-        base_url = "http://api.mypeng.site/futureloan"
+        base_url = "http://api.mypeng.site:8080/futureloan"
         url_path = "/member/login"
         self.url = base_url + url_path
         self.phone = data.phone

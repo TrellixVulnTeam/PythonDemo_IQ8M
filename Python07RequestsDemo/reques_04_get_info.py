@@ -19,7 +19,7 @@ class PostDemo:
         self.heander_data = None
         self.login_data = None
         mobile_id = reques_03_post_login.PostDemo().post_login().json()["data"]["id"]
-        base_url = "http://api.mypeng.site/futureloan"
+        base_url = "http://api.mypeng.site:8080/futureloan"
         url_path = "/member/{}/info".format(mobile_id)
         self.url = base_url + url_path
 

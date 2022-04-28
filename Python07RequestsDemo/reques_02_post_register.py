@@ -17,7 +17,7 @@ class PostDemo:
 
     def __init__(self):
         # 发送POST请求：提交表单数据
-        base_url = "http://api.mypeng.site/futureloan"
+        base_url = "http://api.mypeng.site:8080/futureloan"
         url_path = "/member/register"
         self.url = base_url + url_path
         self.phone = create_phone.create_a_phone()

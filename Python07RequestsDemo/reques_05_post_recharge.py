@@ -24,7 +24,7 @@ class PostDemo:
                 "amount": 6300
             }
             logging.info("获取到member_id：{}".format(member_id))
-            base_url = "http://api.mypeng.site/futureloan"
+            base_url = "http://api.mypeng.site:8080/futureloan"
             url_path = "/member/recharge"
             self.url = base_url + url_path
 

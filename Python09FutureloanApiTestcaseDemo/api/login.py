@@ -1,6 +1,6 @@
 from loguru import logger
 import requests
-from Python09FutureloanApiTestcaseDemo.common import utils
+from common import utils
 
 
 class LoginApi:
@@ -33,5 +33,5 @@ class LoginApi:
 
 
 if __name__ == '__main__':
-    res = LoginApi().login("13826601726", "1234567@")
+    res = LoginApi().login("15851136191", "1234567@")
     # logging.info("main test res.json = {} \n".format(res.json()))

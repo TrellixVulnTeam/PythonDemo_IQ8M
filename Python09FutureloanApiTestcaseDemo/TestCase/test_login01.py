@@ -1,12 +1,12 @@
 import unittest
 import logging
 
-from Python09FutureloanApiTestcaseDemo.api.login import LoginApi
-from Python09FutureloanApiTestcaseDemo.common import utils
+from api.login import LoginApi
+from common import utils
 import json
 from parameterized import parameterized
 
-from Python09FutureloanApiTestcaseDemo.common.utils import init_log_config
+from common.utils import init_log_config
 
 
 # 构造测试数据，读取JSON文件
@@ -59,11 +59,11 @@ class TestLogin(unittest.TestCase):
         #     # app.a = 2
 
     # 登录成功
-    @unittest.skip
+    # @unittest.skip
     def test_login_success(self):
         # 测试数据
         mobile = "13800000002"
-        pwd = "1234567@"
+        pwd = "12345678"
 
         # 登录
         response = self.login_api.login(mobile, pwd)
@@ -71,16 +71,14 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, True, 10000, "操作成功")
-        # utils.common_assert(self, response)
-        # self.assertEqual(200, response.status_code)
-        # self.assertEqual(True, json_data.get("success"))
-        # self.assertEqual(10000, json_data.get("code"))
-        # self.assertIn("操作成功", json_data.get("message"))
+        utils.common_assert(self, response, 200, 0, "OK")
 
+        # print("保存token之前的hraders==", utils.header_data)
         # 保存token数据
-        token = json_data.get("data")
-        utils.header_data["Authorization"] = "Bearer " + token
+        token_type = json_data.get("data").get("token_info").get("token_type")
+        token = json_data.get("data").get("token_info").get("token")
+        # print("打印登录后获取到的token", token_type)
+        utils.header_data["Authorization"] = token_type + " " + token
         print("app.header_data==", utils.header_data)
         # app.a = 2
 
@@ -118,7 +116,7 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, False, 20001, "用户名或密码错误")
+        utils.common_assert(self, response, 200, 20001, "用户名或密码错误")
 
     # 请求参数为空
     # @unittest.skip
@@ -133,4 +131,4 @@ class TestLogin(unittest.TestCase):
         logging.info("json_data={}".format(json_data))
 
         # 断言
-        utils.common_assert(self, response, 200, 1004)
+        utils.common_assert(self, response, 200, 1004, "密码为空")

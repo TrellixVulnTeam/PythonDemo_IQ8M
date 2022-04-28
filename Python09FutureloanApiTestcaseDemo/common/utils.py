@@ -7,12 +7,13 @@ from loguru import logger
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 # 项目基本路径
-BASE_URL = "http://api.mypeng.site/futureloan"
+BASE_URL = "http://api.mypeng.site:8080/futureloan"
 
 # 请求头数据
 header_data = {
     "Content-Type": "application/json",
     "X-Lemonban-Media-Type": "lemonban.v2"
+
 }
 
 
@@ -41,15 +42,14 @@ def init_log_config():
 
 
 # 通用断言方法
-def common_assert(test_case, response, status_code=200, msg="ok"):
+def common_assert(test_case, response, status_code, code, msg):
     test_case.assertEqual(status_code, response.status_code)
-    logger.info("status_code断言完毕,预期：" + "200" + "实际结果：" + str(status_code))
-    # test_case.assertEqual(code, response.json().get("code"))
-    # logger.info("字段code断言完毕,预期：0" + "实际结果：", str(code))
-    # test_case.assertIn(msg, response.json().get("msg"))
-    # logger.info("字段msg断言完毕,预期：ok", "实际结果：" + str(msg))
+    logger.info("status_code断言完毕,预期：{},实际结果：{}".format(status_code, response.status_code))
+    test_case.assertEqual(code, response.json().get("code"))
+    logger.info("字段code断言完毕,预期：{},实际结果：{}".format(code, response.json().get("code")))
+    test_case.assertIn(msg, response.json().get("msg"))
+    logger.info("字段msg断言完毕,预期：{},实际结果：{}".format(msg, response.json().get("msg")))
 
-
-if __name__ == '__main__':
-    init_log_config()
+    if __name__ == '__main__':
+        init_log_config()
     logging.info("test")
