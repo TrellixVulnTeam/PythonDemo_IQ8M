@@ -19,13 +19,12 @@ class TestLoginSuccess(unittest.TestCase):
 
         # 登录
         response = self.login_api.login(mobile, pwd)
-        json_data = response.json()
-        logging.info("response={}".format(json_data))
+        logging.info(f"response= {response.json()}")
 
         # 断言
         utils.common_assert(self, response, 200, 0, "OK")
 
         # 保存token数据
-        token = json_data["data"]["token_info"]["token"]
+        token = response.json()["data"]["token_info"]["token"]
         utils.header_data["Authorization"] = "Bearer " + token
-        logging.info("utils.header_data=={}".format(str(utils.header_data)))
+        logging.info(f"utils.header_data== {utils.header_data}")

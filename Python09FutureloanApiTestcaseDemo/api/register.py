@@ -38,5 +38,6 @@ if __name__ == '__main__':
     # 拼接手机号
     phone = getPhoneNumber.getPhoneNumber()
     password = utils.BSAE_PASSWORD
-    response = RegisterApi.register(phone, password, 1)
-    logging.info("response= {} \n".format(response.json()))
+    type_int = utils.BASE_TYPEINT
+    response = RegisterApi.register(phone, password, type_int)
+    logging.info("response= {}".format(response.json()))

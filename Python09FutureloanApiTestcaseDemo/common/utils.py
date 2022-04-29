@@ -6,11 +6,11 @@ import time
 # 项目根目录
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-# print(BASE_DIR)
 # 项目基本路径
 BASE_URL = "http://api.mypeng.site:8080/futureloan"
 
 BSAE_PASSWORD = "1234567@"
+BASE_TYPEINT = 1
 # 请求头数据
 header_data = {
     "Content-Type": "application/json",

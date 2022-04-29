@@ -39,10 +39,10 @@ class TestLogin(unittest.TestCase):
         utils.common_assert(self, response, status_code, code, msg)
         # self.assertEqual(json_data["code"], datacode, "断言返回消息体的code码")
         # self.assertEqual(json_data["msg"], msg, "断言msg消息")
-        logging.info("断言结束，当前用例执行结束 ********************************************************")
+        logging.info("Login用例执行完毕 ***************************************************************************")
         # 保存token数据
         if response.json()["msg"] == "OK":
             token = response.json()["data"]["token_info"]["token"]
             utils.header_data["Authorization"] = "Bearer " + token
-            logging.info("utils.header_data=={}".format(str(utils.header_data)))
+            logging.info(f"utils.header_data== {utils.header_data}")
             # app.a = 2

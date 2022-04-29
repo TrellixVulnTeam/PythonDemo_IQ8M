@@ -5,6 +5,7 @@ import logging
 
 from api.register import RegisterApi
 from common import utils
+from common import dbUtil
 import json
 from parameterized import parameterized
 
@@ -14,9 +15,8 @@ def build_data():
     with open(utils.BASE_DIR + "/data/register.json", encoding="UTF-8") as f:
         json_data = json.load(f)
         for case_data in json_data:
-            # mobile_phone = case_data.get("mobile_phone")
-            mobile_phone = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
-                                            str(int(time.time()))[2::])
+            # mobile_phone = getPhoneNumber.getPhoneNumber()  # 获取一个手机号
+            mobile_phone = case_data.get("mobile_phone")
             pwd = case_data.get("pwd")
             type_int = case_data.get("type_int")
             reg_name = case_data.get("reg_name")
@@ -24,7 +24,7 @@ def build_data():
             code = case_data.get("code")
             msg = case_data.get("msg")
             test_data.append((mobile_phone, pwd, type_int, reg_name, status_code, code, msg))
-        # logging.info("test_data={}".format(test_data))
+        logging.info(f"test_data={test_data}")
     return test_data
 
 
@@ -33,29 +33,18 @@ class TestRegister(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.register_api = RegisterApi
 
+    def setUp(self) -> None:
+        pass
+
     # 取参数化配置注册
     @parameterized.expand(build_data)
     def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
+        db = dbUtil.DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'futureloan')
+        delectSql = f"DELETE FROM member WHERE mobile_phone = {mobile_phone}"
+        print(delectSql)
+        db.write_db(delectSql)
         # 注册
         response = self.register_api.register(mobile_phone, pwd, type_int, reg_name)
-        json_data = response.json()
-        logging.info("json_data={}\n".format(json_data))
+        logging.info(f"response= {response.json()}")
         # 断言
         utils.common_assert(self, response, status_code, code, msg)
-
-    # @unittest.skip
-    def test_register_success(self):
-        # 测试数据
-        mobile = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
-                                  str(int(time.time()))[2::])
-        pwd = "12345678"
-        type_int = 1
-
-        # 注册
-        response = self.register_api.register(mobile, pwd, type_int)
-        json_data = response.json()
-        print(json_data)
-        logging.info("json_data={}".format(json_data))
-
-        # 断言
-        utils.common_assert(self, response, 200, 0, "OK")

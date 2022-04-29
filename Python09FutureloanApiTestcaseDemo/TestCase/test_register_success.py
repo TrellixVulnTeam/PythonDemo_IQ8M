@@ -1,16 +1,12 @@
-import random
-import time
 import unittest
 import logging
 
 from api.register import RegisterApi
 from common import utils
 from common import getPhoneNumber
-import json
-from parameterized import parameterized
 
 
-class TestRegister(unittest.TestCase):
+class TestRegisterSuccess(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.register_api = RegisterApi
@@ -18,14 +14,14 @@ class TestRegister(unittest.TestCase):
     def test_register_success(self):
         # 测试数据
         mobile = getPhoneNumber.getPhoneNumber()
-        pwd = "1234567@"
-        type_int = 1
+        pwd = utils.BSAE_PASSWORD
+        type_int = utils.BASE_TYPEINT
 
-        # 注册
+        # 发送注册请求
         response = self.register_api.register(mobile, pwd, type_int)
         json_data = response.json()
-        print(json_data)
-        logging.info("json_data={}".format(json_data))
+        logging.info("response= {}".format(json_data))
 
         # 断言
         utils.common_assert(self, response, 200, 0, "OK")
+        logging.info("注册成功用例执行完毕！")
