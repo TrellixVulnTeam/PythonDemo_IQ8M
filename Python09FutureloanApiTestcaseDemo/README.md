@@ -5,3 +5,5 @@
 ### 1. 使用unittest测试框架，简单封装了注册和登录的接口自动化
 ### 2. 使用parameterized实现参数化场景
 ### 3. 使用了HTMLTestRunner实现测试报告的集成
+
+## !!! 注意：使用本项目，需要打开Python09FutureloanApiTestcaseDemo为项目目录
