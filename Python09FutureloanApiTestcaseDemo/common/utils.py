@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/24 3:57 PM
+# @Author : 夏见。
+# @File : utils.py
+
 import logging.handlers
 import logging
 import os
@@ -55,4 +61,4 @@ def common_assert(test_case, response, status_code, code, msg):
 
 if __name__ == '__main__':
     init_log_config()
-    logging.info("test")
+    logging.info("test io")
