@@ -28,12 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="优化导入">
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_04_29_22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/report2022_04_29_22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/register.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/register.json" afterDir="false" />
-    </list>
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="更新sql清理逻辑" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,27 +115,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.run_suite">
-    <configuration name="reques_02_post_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="reques_03_post_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,6 +178,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python 测试 (test_repeat_register.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_repeat_register.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittest in E:/Code/Python/PythonDemo/Python08UnitTest/unittest_01_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,10 +209,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_suite" />
+        <item itemvalue="Python 测试.Python 测试 (test_repeat_register.py 内)" />
         <item itemvalue="Python 测试.Unittest in E:/Code/Python/PythonDemo/Python08UnitTest/unittest_01_demo.py" />
         <item itemvalue="Python.reques_04_get_info" />
         <item itemvalue="Python.reques_03_post_login" />
-        <item itemvalue="Python.reques_02_post_register" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651240549486</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="更新sql清理逻辑">
+      <created>1651242561712</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651242561713</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,13 +554,8 @@
     <MESSAGE value="update some demo and add 冰墩墩" />
     <MESSAGE value="update some demo" />
     <MESSAGE value="优化导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化导入" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1651240819854">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1651240819854" />
+    <MESSAGE value="更新sql清理逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新sql清理逻辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

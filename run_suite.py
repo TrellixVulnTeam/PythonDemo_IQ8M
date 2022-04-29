@@ -6,6 +6,7 @@ from TestCase.test_login import TestLogin
 from TestCase.test_login_success import TestLoginSuccess
 from TestCase.test_register import TestRegister
 from TestCase.test_register_success import TestRegisterSuccess
+from TestCase.test_repeat_register import TestRepeatRegister
 from common import utils
 from tools.HTMLTestRunner import HTMLTestRunner
 
@@ -13,6 +14,7 @@ suite = unittest.TestSuite()
 
 suite.addTest(unittest.makeSuite(TestLoginSuccess))
 suite.addTest(unittest.makeSuite(TestRegisterSuccess))
+suite.addTest(unittest.makeSuite(TestRepeatRegister))
 suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestRegister))
 
