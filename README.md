@@ -24,4 +24,5 @@
     2、__name__
     
 ## 五、接口自动化项目实战
-    打开Python09FutureloanApiTestcaseDemo目录即可查看项目
+    1、打开Python09FutureloanApiTestcaseDemo目录查看项目
+    2、切换分支 apitestdemo分支
