@@ -1,6 +1,14 @@
-import requests
-from common import utils
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 10:50 PM
+# @Author : 夏见。
+# @File : login.py
+
 import logging
+
+import requests
+
+from common import utils
 
 
 class LoginApi:

@@ -3,10 +3,10 @@ import time
 import unittest
 
 from TestCase.test_login import TestLogin
-from TestCase.test_register import TestRegister
-from common import utils
 from TestCase.test_login_success import TestLoginSuccess
+from TestCase.test_register import TestRegister
 from TestCase.test_register_success import TestRegisterSuccess
+from common import utils
 from tools.HTMLTestRunner import HTMLTestRunner
 
 suite = unittest.TestSuite()

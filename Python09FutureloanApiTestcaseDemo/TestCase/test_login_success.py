@@ -1,9 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 11:58 PM
+# @Author : 夏见。
+# @File : test_login_success.py
+
+import logging
 import unittest
 
 from api.login import LoginApi
 from common import utils
-import logging
-from parameterized import parameterized
 
 
 class TestLoginSuccess(unittest.TestCase):

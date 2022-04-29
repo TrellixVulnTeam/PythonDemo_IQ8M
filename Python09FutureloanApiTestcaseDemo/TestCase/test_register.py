@@ -1,13 +1,18 @@
-import random
-import time
-import unittest
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 11:59 PM
+# @Author : 夏见。
+# @File : test_register.py
+
+import json
 import logging
+import unittest
+
+from parameterized import parameterized
 
 from api.register import RegisterApi
-from common import utils
 from common import dbUtil
-import json
-from parameterized import parameterized
+from common import utils
 
 
 def build_data():
@@ -38,7 +43,7 @@ class TestRegister(unittest.TestCase):
 
     # 取参数化配置注册
     @parameterized.expand(build_data)
-    def test_login(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
+    def test_register(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
         db = dbUtil.DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'futureloan')
         delectSql = f"DELETE FROM member WHERE mobile_phone = {mobile_phone}"
         print(delectSql)

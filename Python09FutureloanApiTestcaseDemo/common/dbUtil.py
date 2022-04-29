@@ -1,5 +1,12 @@
-import pymysql
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/28 17:57 PM
+# @Author : 夏见。
+# @File : dbUtil.py
+
 import logging
+
+import pymysql
 
 
 class DBUtil:

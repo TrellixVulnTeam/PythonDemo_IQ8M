@@ -1,8 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 10:55 PM
+# @Author : 夏见。
+# @File : register.py
+
 import logging
 
 from requests import request
-from common import utils
+
 from common import getPhoneNumber
+from common import utils
 
 
 class RegisterApi:

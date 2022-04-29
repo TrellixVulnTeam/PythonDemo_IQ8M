@@ -1,9 +1,15 @@
-import unittest
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 12:02 PM
+# @Author : 夏见。
+# @File : test_register_success.py
+
 import logging
+import unittest
 
 from api.register import RegisterApi
-from common import utils
 from common import getPhoneNumber
+from common import utils
 
 
 class TestRegisterSuccess(unittest.TestCase):

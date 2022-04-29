@@ -1,9 +1,17 @@
-import unittest
-import logging
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/27 11:57 PM
+# @Author : 夏见。
+# @File : test_login.py
+
 import json
+import logging
+import unittest
+
+from parameterized import parameterized
+
 from api.login import LoginApi
 from common import utils
-from parameterized import parameterized
 
 
 # 构造测试数据，读取JSON文件
