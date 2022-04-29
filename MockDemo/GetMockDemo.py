@@ -5,9 +5,10 @@
 # @description: 启动一个get请求的接口服务
 
 
-import flask
 import json
 import time
+
+import flask
 
 server = flask.Flask(__name__)  # 创建一个服务，把当前这个python文件当做一个服务
 

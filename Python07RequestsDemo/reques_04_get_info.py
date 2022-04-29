@@ -5,10 +5,13 @@
 # @Email:812011745@qq.com
 # @Software:PyCharm
 
-import time
 import logging
+import time
+
 import requests
+
 from Python07RequestsDemo import reques_03_post_login
+
 
 class PostDemo:
     LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"

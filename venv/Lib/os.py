@@ -27,6 +27,11 @@ import sys
 import stat as st
 
 from _collections_abc import _check_methods
+# '
+import abc
+import stat as st
+import sys
+from _collections_abc import _check_methods
 
 GenericAlias = type(list[int])
 

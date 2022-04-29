@@ -1,9 +1,9 @@
-import turtle
 import random
-from turtle import *
+import turtle
 from time import sleep
+from turtle import *
+
 import easygui as g
-import sys
 
 
 # ---------------------------------------

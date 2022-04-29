@@ -122,9 +122,10 @@ This module also defines an exception 'error'.
 """
 
 import enum
+import functools
 import sre_compile
 import sre_parse
-import functools
+
 try:
     import _locale
 except ImportError:

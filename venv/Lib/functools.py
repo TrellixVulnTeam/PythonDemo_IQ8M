@@ -14,13 +14,12 @@ __all__ = ['update_wrapper', 'wraps', 'WRAPPER_ASSIGNMENTS', 'WRAPPER_UPDATES',
            'partial', 'partialmethod', 'singledispatch', 'singledispatchmethod',
            'cached_property']
 
+from _thread import RLock
 from abc import get_cache_token
 from collections import namedtuple
 # import types, weakref  # Deferred to single_dispatch()
 from reprlib import recursive_repr
-from _thread import RLock
 from types import GenericAlias
-
 
 ################################################################################
 ### update_wrapper() and wraps() decorator

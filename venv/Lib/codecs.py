@@ -1113,7 +1113,7 @@ except LookupError:
 # package
 _false = 0
 if _false:
-    import encodings
+    pass
 
 ### Tests
 

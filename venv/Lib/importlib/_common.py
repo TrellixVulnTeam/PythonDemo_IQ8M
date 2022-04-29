@@ -1,15 +1,14 @@
+import contextlib
+import functools
+import importlib
 import os
 import pathlib
 import tempfile
-import functools
-import contextlib
 import types
-import importlib
-
 from typing import Union, Any, Optional
-from .abc import ResourceReader, Traversable
 
 from ._adapters import wrap_spec
+from .abc import ResourceReader, Traversable
 
 Package = Union[types.ModuleType, str]
 

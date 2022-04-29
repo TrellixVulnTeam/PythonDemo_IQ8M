@@ -5,9 +5,11 @@
 # @Email:812011745@qq.com
 # @Software:PyCharm
 
-import time
 import logging
+import time
+
 import requests
+
 from Python07RequestsDemo import reques_03_post_login
 
 

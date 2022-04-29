@@ -8,11 +8,10 @@ import json
 import logging
 import unittest
 
-from parameterized import parameterized
-
 from api.register import RegisterApi
 from common import dbUtil
 from common import utils
+from parameterized import parameterized
 
 
 def build_data():

@@ -2,10 +2,12 @@
 # coding=utf-8
 
 # from os.path import dirname
-import os, sys, getopt
-from urllib.request import Request, urlopen
+import getopt
+import os
+import sys
 from base64 import b64encode
 from multiprocessing import Pool
+from urllib.request import Request, urlopen
 
 poolLimite = 10
 key = "PX-pm9lAY3siS8cHIWz44zWFZHj6TtYX"

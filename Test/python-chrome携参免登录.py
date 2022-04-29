@@ -4,9 +4,8 @@
 个人资料路径(chrome://version/，查看个人资料路径,去掉最后的‘\Default’)
 """
 from time import sleep
+
 from selenium import webdriver
-
-
 
 
 def get_cookie(url):

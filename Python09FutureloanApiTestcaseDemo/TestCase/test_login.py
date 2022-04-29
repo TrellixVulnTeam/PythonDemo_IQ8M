@@ -8,10 +8,9 @@ import json
 import logging
 import unittest
 
-from parameterized import parameterized
-
 from api.login import LoginApi
 from common import utils
+from parameterized import parameterized
 
 
 # 构造测试数据，读取JSON文件

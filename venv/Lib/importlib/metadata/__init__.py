@@ -1,32 +1,30 @@
-import os
-import re
 import abc
+import collections
 import csv
-import sys
 import email
-import pathlib
-import zipfile
-import operator
-import textwrap
-import warnings
 import functools
 import itertools
+import operator
+import os
+import pathlib
 import posixpath
-import collections
-
-from . import _adapters, _meta
-from ._meta import PackageMetadata
-from ._collections import FreezableDefaultDict, Pair
-from ._functools import method_cache
-from ._itertools import unique_everseen
-from ._meta import PackageMetadata, SimplePath
-
+import re
+import sys
+import textwrap
+import warnings
+import zipfile
 from contextlib import suppress
 from importlib import import_module
 from importlib.abc import MetaPathFinder
 from itertools import starmap
 from typing import List, Mapping, Optional, Union
 
+from . import _adapters, _meta
+from ._collections import FreezableDefaultDict, Pair
+from ._functools import method_cache
+from ._itertools import unique_everseen
+from ._meta import PackageMetadata
+from ._meta import PackageMetadata, SimplePath
 
 __all__ = [
     'Distribution',

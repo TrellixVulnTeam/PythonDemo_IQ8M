@@ -9,21 +9,19 @@ https://www.python.org/dev/peps/pep-0205/
 # they are called this instead of "ref" to avoid name collisions with
 # the module-global ref() function imported from _weakref.
 
-from _weakref import (
-     getweakrefcount,
-     getweakrefs,
-     ref,
-     proxy,
-     CallableProxyType,
-     ProxyType,
-     ReferenceType,
-     _remove_dead_weakref)
-
-from _weakrefset import WeakSet, _IterationGuard
-
 import _collections_abc  # Import after _weakref to avoid circular import.
-import sys
 import itertools
+import sys
+from _weakref import (
+    getweakrefcount,
+    getweakrefs,
+    ref,
+    proxy,
+    CallableProxyType,
+    ProxyType,
+    ReferenceType,
+    _remove_dead_weakref)
+from _weakrefset import WeakSet, _IterationGuard
 
 ProxyTypes = (ProxyType, CallableProxyType)
 

@@ -6,10 +6,7 @@ functionality over this module.
 
 """
 # (Probably) need to stay in _imp
-from _imp import (lock_held, acquire_lock, release_lock,
-                  get_frozen_object, is_frozen_package,
-                  init_frozen, is_builtin, is_frozen,
-                  _fix_co_filename)
+from _imp import (init_frozen, is_builtin, is_frozen)
 try:
     from _imp import create_dynamic
 except ImportError:

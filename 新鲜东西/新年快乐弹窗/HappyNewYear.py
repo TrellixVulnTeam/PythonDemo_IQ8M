@@ -1,9 +1,7 @@
-import os
-import sys
-import tkinter as tk
 import random
 import threading
 import time
+import tkinter as tk
 
 
 def dow():

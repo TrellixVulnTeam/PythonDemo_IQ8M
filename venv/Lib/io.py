@@ -51,10 +51,10 @@ __all__ = ["BlockingIOError", "open", "open_code", "IOBase", "RawIOBase",
 import _io
 import abc
 
-from _io import (DEFAULT_BUFFER_SIZE, BlockingIOError, UnsupportedOperation,
-                 open, open_code, FileIO, BytesIO, StringIO, BufferedReader,
+from _io import (BlockingIOError, UnsupportedOperation,
+                 open, FileIO, BytesIO, StringIO, BufferedReader,
                  BufferedWriter, BufferedRWPair, BufferedRandom,
-                 IncrementalNewlineDecoder, text_encoding, TextIOWrapper)
+                 TextIOWrapper)
 
 
 def __getattr__(name):

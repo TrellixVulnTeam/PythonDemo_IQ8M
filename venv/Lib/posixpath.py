@@ -22,10 +22,10 @@ defpath = '/bin:/usr/bin'
 altsep = None
 devnull = '/dev/null'
 
-import os
-import sys
-import stat
 import genericpath
+import os
+import stat
+import sys
 from genericpath import *
 
 __all__ = ["normcase","isabs","join","splitdrive","split","splitext",

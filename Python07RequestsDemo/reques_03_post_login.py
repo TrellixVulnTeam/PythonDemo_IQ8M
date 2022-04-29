@@ -6,8 +6,10 @@
 # @Software:PyCharm
 
 import time
-from loguru import logger
+
 import requests
+from loguru import logger
+
 from Python07RequestsDemo import reques_02_post_register
 
 

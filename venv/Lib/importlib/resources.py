@@ -1,10 +1,8 @@
-import os
 import io
-
-from . import _common
-from ._common import as_file, files
-from .abc import ResourceReader
+import os
+from collections.abc import Sequence
 from contextlib import suppress
+from functools import singledispatch
 from importlib.abc import ResourceLoader
 from importlib.machinery import ModuleSpec
 from io import BytesIO, TextIOWrapper
@@ -12,10 +10,12 @@ from pathlib import Path
 from types import ModuleType
 from typing import ContextManager, Iterable, Union
 from typing import cast
-from typing.io import BinaryIO, TextIO
-from collections.abc import Sequence
-from functools import singledispatch
 
+from typing.io import BinaryIO, TextIO
+
+from . import _common
+from ._common import as_file, files
+from .abc import ResourceReader
 
 __all__ = [
     'Package',

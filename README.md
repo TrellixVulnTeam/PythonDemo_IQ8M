@@ -22,3 +22,6 @@
 ## 四、常见的内置方法
     1、__file__
     2、__name__
+    
+## 五、接口自动化项目实战
+    打开Python09FutureloanApiTestcaseDemo目录即可查看项目

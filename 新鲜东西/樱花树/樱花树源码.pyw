@@ -3,10 +3,10 @@
 # 画一棵樱花
 
 
-import turtle
 import random
-from turtle import *
+import turtle
 from time import sleep
+from turtle import *
 
 
 # 画樱花的躯干(60,t)

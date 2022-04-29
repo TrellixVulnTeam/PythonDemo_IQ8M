@@ -33,19 +33,19 @@ version     = "0.9.0"
 __author__  = "Lars Gust\u00e4bel (lars@gustaebel.de)"
 __credits__ = "Gustavo Niemeyer, Niels Gust\u00e4bel, Richard Townsend."
 
-#---------
-# Imports
-#---------
-from builtins import open as bltn_open
-import sys
-import os
+import copy
 import io
+import os
+import re
 import shutil
 import stat
-import time
 import struct
-import copy
-import re
+import sys
+import time
+# ---------
+# Imports
+# ---------
+from builtins import open as bltn_open
 
 try:
     import pwd

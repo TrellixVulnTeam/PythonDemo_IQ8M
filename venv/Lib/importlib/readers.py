@@ -1,6 +1,7 @@
 import collections
-import zipfile
 import pathlib
+import zipfile
+
 from . import abc
 
 

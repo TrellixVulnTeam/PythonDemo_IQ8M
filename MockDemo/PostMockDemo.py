@@ -6,8 +6,9 @@
 # @description: 启动一个post请求的接口服务,通过参数的key返回对应擦值
 
 
-import flask
 import json
+
+import flask
 
 server = flask.Flask(__name__)  # 创建一个服务，把当前这个python文件当做一个服务
 
