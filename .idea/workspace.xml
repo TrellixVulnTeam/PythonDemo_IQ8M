@@ -30,12 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python06PymysqlDemo/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python06PymysqlDemo/db_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/create_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/create_phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_03_post_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_recharge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python07RequestsDemo/reques_05_post_recharge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20aVWouqUt7RtDBIQBTncLXXB6O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,7 +85,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -526,7 +523,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -548,56 +544,6 @@
     <MESSAGE value="update some demo and add 冰墩墩" />
     <MESSAGE value="update some demo" />
     <option name="LAST_COMMIT_MESSAGE" value="update some demo" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="620" y="280" key="FileChooserDialogImpl" timestamp="1650122867125">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="620" y="280" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1650122867125" />
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1651136065983">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1651136065983" />
-    <state x="341" y="149" key="SettingsEditor" timestamp="1650122917297">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="341" y="149" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1650122917297" />
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1650123499179">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1650123499179" />
-    <state x="633" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650122629550">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state x="633" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1650122629550" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

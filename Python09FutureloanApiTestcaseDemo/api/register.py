@@ -1,10 +1,8 @@
-from loguru import logger
-import random
-import time
+import logging
 
 from requests import request
 from common import utils
-import api
+from common import getPhoneNumber
 
 
 class RegisterApi:
@@ -31,15 +29,14 @@ class RegisterApi:
                 ruquest_data = {}
             ruquest_data["reg_name"] = reg_name
 
-        logger.info("requesdate = {}".format(ruquest_data))
-        logger.info("开始请求注册接口")
+        logging.debug("request= {}".format(ruquest_data))
+        logging.info("开始请求注册接口 ing ")
         return request('post', login_url, json=ruquest_data, headers=utils.header_data)
 
 
 if __name__ == '__main__':
     # 拼接手机号
-    phone = "1{}{}{}".format([3, 5, 8][random.randint(0, 2)], [2, 3, 5, 7, 8, 9][random.randint(0, 5)],
-                             str(int(time.time()))[2::])
-    res = RegisterApi.register(phone, "1234567@", 1)
-    # res = register(phone, "1234567@", 1, 123)
-    logger.info("main test res.json = {} \n".format(res.json()))
+    phone = getPhoneNumber.getPhoneNumber()
+    password = utils.BSAE_PASSWORD
+    response = RegisterApi.register(phone, password, 1)
+    logging.info("response= {} \n".format(response.json()))

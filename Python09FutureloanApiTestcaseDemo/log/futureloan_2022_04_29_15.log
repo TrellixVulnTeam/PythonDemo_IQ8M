@@ -1,0 +1,311 @@
+2022-04-29 15:30:55,681 INFO [root] [utils.py(<module>:57)] - test
+2022-04-29 15:31:11,879 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:31:12,053 INFO [root] [test_register.py(build_data:28)] - test_data=[('18351217472', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13751217472', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:31:12,059 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:31:12,104 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:36:14', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzc3NH0.KOhxUzakhDR2AgMSVUCgFk8TkpA3Kuk7Bvm10YWiTOXAcXstpzjAaj40f9MxOMZlpq188REKNB99RKzhqA0HuA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:31:12,104 INFO [root] [test_login.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:36:14', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzc3NH0.KOhxUzakhDR2AgMSVUCgFk8TkpA3Kuk7Bvm10YWiTOXAcXstpzjAaj40f9MxOMZlpq188REKNB99RKzhqA0HuA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:31:12,105 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:31:12,105 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:31:12,105 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:31:12,105 INFO [root] [test_login.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzc3NH0.KOhxUzakhDR2AgMSVUCgFk8TkpA3Kuk7Bvm10YWiTOXAcXstpzjAaj40f9MxOMZlpq188REKNB99RKzhqA0HuA'}
+2022-04-29 15:33:49,532 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:33:49,702 INFO [root] [test_register.py(build_data:28)] - test_data=[('18851217629', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13951217629', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:33:49,705 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:33:49,705 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:33:49,762 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:38:51', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzkzMX0.hP6108eYL2aYsa8ue3S-waqyFhPwbJ1icO5L9DTUElMG1IVJXSGOrlOngGPiDweXwv5mqn_UM3Iwc8zDk-Pz5w'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:33:49,763 INFO [root] [test_login.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:38:51', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzkzMX0.hP6108eYL2aYsa8ue3S-waqyFhPwbJ1icO5L9DTUElMG1IVJXSGOrlOngGPiDweXwv5mqn_UM3Iwc8zDk-Pz5w'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:33:49,763 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:33:49,763 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:33:49,764 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:33:49,764 INFO [root] [test_login.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxNzkzMX0.hP6108eYL2aYsa8ue3S-waqyFhPwbJ1icO5L9DTUElMG1IVJXSGOrlOngGPiDweXwv5mqn_UM3Iwc8zDk-Pz5w'}
+2022-04-29 15:35:08,788 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:35:09,036 INFO [root] [test_register.py(build_data:28)] - test_data=[('18951217709', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13551217709', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:35:09,039 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:35:09,039 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:35:09,082 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:40:11', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODAxMX0.DPmsitHXsB4BhFSIaMZqb3Ol_Tq12FT3eB8ibGWKNVODI8Rx3XDWWHr2XQMa5kynzP2_NE0vvyGjPAEFzG2epw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:35:09,082 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:40:11', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODAxMX0.DPmsitHXsB4BhFSIaMZqb3Ol_Tq12FT3eB8ibGWKNVODI8Rx3XDWWHr2XQMa5kynzP2_NE0vvyGjPAEFzG2epw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:35:09,083 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:35:09,083 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:35:09,084 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:35:09,084 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODAxMX0.DPmsitHXsB4BhFSIaMZqb3Ol_Tq12FT3eB8ibGWKNVODI8Rx3XDWWHr2XQMa5kynzP2_NE0vvyGjPAEFzG2epw'}
+2022-04-29 15:44:44,176 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:44:44,432 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:44:44,434 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 18346581007，1234567@，200，0，OK
+2022-04-29 15:44:44,434 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:44:44,482 INFO [root] [login.py(login:31)] - res结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:44:44,482 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:44:44,493 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:44:44,493 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:44:44,521 INFO [root] [login.py(login:31)] - res结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:44:44,521 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:44:44,521 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:44:44,522 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:44:44,522 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:45:21,672 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:45:39,867 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:45:39,988 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:45:39,990 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:45:39,990 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:45:40,042 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:50:42', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4NjQyfQ.6yTWrGpklU7rM1oQv-o8Q882S3H8ZrDPbrMCTF3Km1r1h8usY36s8iu0mFbUlI5BtaLV8uJ0MdeGMZeiBKOnpg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:45:40,042 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:45:40,043 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:45:40,043 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:45:40,043 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:45:40,044 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4NjQyfQ.6yTWrGpklU7rM1oQv-o8Q882S3H8ZrDPbrMCTF3Km1r1h8usY36s8iu0mFbUlI5BtaLV8uJ0MdeGMZeiBKOnpg'}
+2022-04-29 15:45:40,045 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:45:40,045 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:45:40,076 INFO [root] [login.py(login:31)] - res结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:45:40,076 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:45:40,077 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:45:40,077 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:45:40,077 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:46:32,595 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:46:32,753 INFO [root] [test_register.py(build_data:28)] - test_data=[('15851218392', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13751218392', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:46:32,758 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:46:32,758 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:46:32,799 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:51:34', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODY5NH0.BPhdgDw3-Ah0I5VvcTuEd3JgwGxmHvoIEPNhpynWMBXUB1m9xyF5N8Lorqsnk_lsHuejHoCTJzf7MqQvOywLqg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:46:32,800 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:51:34', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODY5NH0.BPhdgDw3-Ah0I5VvcTuEd3JgwGxmHvoIEPNhpynWMBXUB1m9xyF5N8Lorqsnk_lsHuejHoCTJzf7MqQvOywLqg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:46:32,800 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:46:32,800 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:46:32,801 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:46:32,801 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODY5NH0.BPhdgDw3-Ah0I5VvcTuEd3JgwGxmHvoIEPNhpynWMBXUB1m9xyF5N8Lorqsnk_lsHuejHoCTJzf7MqQvOywLqg'}
+2022-04-29 15:46:32,801 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:46:32,802 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:46:32,802 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:46:32,829 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:51:35', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4Njk1fQ.oBFS8YLCFwsuWOyU9AbqRpNecDxgZ_U_lcR2ACKoiDkKroHrn4eEJHbjmatvqnOU-oL9kBxNehqBwy4AhxNhkw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:46:32,829 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:46:32,829 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:46:32,829 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:46:32,829 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:46:32,830 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4Njk1fQ.oBFS8YLCFwsuWOyU9AbqRpNecDxgZ_U_lcR2ACKoiDkKroHrn4eEJHbjmatvqnOU-oL9kBxNehqBwy4AhxNhkw'}
+2022-04-29 15:46:32,830 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:46:32,830 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:46:32,856 INFO [root] [login.py(login:31)] - res结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:46:32,856 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:46:32,856 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:46:32,857 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:46:32,857 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:47:42,233 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:47:42,585 INFO [root] [test_register.py(build_data:28)] - test_data=[('15351218462', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('15951218462', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:47:42,596 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:47:42,596 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:47:42,647 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:52:44', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODc2NH0.eG7hfBdWhsmKrg6lAXf3HHf3qXjc0LTD_aUGxgfw2gpdh5qDpadWbdL7DRR0-ED7RaIYUXt-Ucm27xD9mbGuHw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:47:42,648 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:52:44', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODc2NH0.eG7hfBdWhsmKrg6lAXf3HHf3qXjc0LTD_aUGxgfw2gpdh5qDpadWbdL7DRR0-ED7RaIYUXt-Ucm27xD9mbGuHw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:47:42,648 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:47:42,648 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:47:42,649 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:47:42,649 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODc2NH0.eG7hfBdWhsmKrg6lAXf3HHf3qXjc0LTD_aUGxgfw2gpdh5qDpadWbdL7DRR0-ED7RaIYUXt-Ucm27xD9mbGuHw'}
+2022-04-29 15:47:42,649 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:47:42,650 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:47:42,650 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:47:42,680 INFO [root] [login.py(login:31)] - res结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:52:44', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4NzY0fQ.aKCwO7mgKzzSPqmE8o47G2pFEKTw8zCblDtj9z_t_TpF9LGoUgB9qoMg8FdGUMoPXkoKmvMIltVfNufakUBDrQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:47:42,681 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:47:42,681 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:47:42,681 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:47:42,682 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:47:42,682 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4NzY0fQ.aKCwO7mgKzzSPqmE8o47G2pFEKTw8zCblDtj9z_t_TpF9LGoUgB9qoMg8FdGUMoPXkoKmvMIltVfNufakUBDrQ'}
+2022-04-29 15:47:42,682 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:47:42,682 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:47:42,707 INFO [root] [login.py(login:31)] - res结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:47:42,707 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:47:42,707 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:47:42,707 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:47:42,707 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:50:34,405 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:50:34,790 INFO [root] [test_register.py(build_data:28)] - test_data=[('18251218634', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('18851218634', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:50:34,800 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:50:34,801 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:50:34,848 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:55:37', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODkzN30.plnPxZJdFdHf-M4BJu9vCBAgRT2690m8-oMwOWhY-WG5Mx-GE417HmZRDwGouv-5_566up8GdG4840I6bsdhhA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:50:34,848 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:55:37', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODkzN30.plnPxZJdFdHf-M4BJu9vCBAgRT2690m8-oMwOWhY-WG5Mx-GE417HmZRDwGouv-5_566up8GdG4840I6bsdhhA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:50:34,848 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:50:34,848 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:50:34,848 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:50:34,848 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxODkzN30.plnPxZJdFdHf-M4BJu9vCBAgRT2690m8-oMwOWhY-WG5Mx-GE417HmZRDwGouv-5_566up8GdG4840I6bsdhhA'}
+2022-04-29 15:50:34,848 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:50:34,849 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:50:34,849 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:50:34,871 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:55:37', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4OTM3fQ.uOXI2L6oiJX9nIUU80nohHFUi9pMpzOJLHvQW79B4gIBsB_1m3-78evnGmg53pCTqjaEEDE5qfDBx6LWkvX23w'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:50:34,871 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:50:34,871 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:50:34,871 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:50:34,871 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:50:34,871 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE4OTM3fQ.uOXI2L6oiJX9nIUU80nohHFUi9pMpzOJLHvQW79B4gIBsB_1m3-78evnGmg53pCTqjaEEDE5qfDBx6LWkvX23w'}
+2022-04-29 15:50:34,871 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:50:34,872 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:50:34,902 INFO [root] [login.py(login:31)] - response结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:50:34,903 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:50:34,903 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:50:34,903 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:50:34,904 INFO [root] [test_login.py(test_login:43)] - 断言结束，用例执行结束
+2022-04-29 15:51:44,678 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:51:44,869 INFO [root] [test_register.py(build_data:28)] - test_data=[('15851218704', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13851218704', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:51:44,873 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:51:44,873 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:44,920 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:47', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAwN30.9hf2ZghjCy9PzSduoANXWlfaP5lFHvKNlG1ZwLOfL7XLJqG5d8iPQdlz0MBx7Q7Nm8sZNdsMBBWBN_wi0dEV0w'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:44,921 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:47', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAwN30.9hf2ZghjCy9PzSduoANXWlfaP5lFHvKNlG1ZwLOfL7XLJqG5d8iPQdlz0MBx7Q7Nm8sZNdsMBBWBN_wi0dEV0w'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:44,921 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:44,921 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:51:44,921 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:51:44,921 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAwN30.9hf2ZghjCy9PzSduoANXWlfaP5lFHvKNlG1ZwLOfL7XLJqG5d8iPQdlz0MBx7Q7Nm8sZNdsMBBWBN_wi0dEV0w'}
+2022-04-29 15:51:44,921 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:51:44,921 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:51:44,922 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:44,947 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:47', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDA3fQ.PyzZ-NsF5hOG83Wts4NP1iYVsrQRZghwh6_APUJpD-US_fvDWAcJDQ0DLwuVOCgZnliRThA0wObJQlijJ4-PpQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:44,947 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:44,947 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:51:44,947 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:51:44,947 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************
+2022-04-29 15:51:44,948 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDA3fQ.PyzZ-NsF5hOG83Wts4NP1iYVsrQRZghwh6_APUJpD-US_fvDWAcJDQ0DLwuVOCgZnliRThA0wObJQlijJ4-PpQ'}
+2022-04-29 15:51:44,948 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:51:44,948 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:44,973 INFO [root] [login.py(login:31)] - response结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:44,973 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:44,973 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:51:44,973 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:51:44,974 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************
+2022-04-29 15:51:57,391 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:51:57,583 INFO [root] [test_register.py(build_data:28)] - test_data=[('15751218717', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('18351218717', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:51:57,586 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:51:57,586 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:57,629 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:59', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAxOX0.40qsggOc179t1_51EcnbTrJOnteWtCe8kzlhD28Em7VaU11tBxqw94e9llJrRot989PGS48QvlfYwF0r21HFsQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:57,629 INFO [root] [test_login_success.py(test_login_success:23)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:59', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAxOX0.40qsggOc179t1_51EcnbTrJOnteWtCe8kzlhD28Em7VaU11tBxqw94e9llJrRot989PGS48QvlfYwF0r21HFsQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:57,629 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:57,630 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:51:57,630 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:51:57,630 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTAxOX0.40qsggOc179t1_51EcnbTrJOnteWtCe8kzlhD28Em7VaU11tBxqw94e9llJrRot989PGS48QvlfYwF0r21HFsQ'}
+2022-04-29 15:51:57,630 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:51:57,631 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:51:57,631 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:57,660 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:56:59', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDE5fQ.XTWEZ_5X-EUKiHMIS4Am3DALTaDCBN8eXgFyUh6MB12gVjjxXUtT-csn3-n-ySdejOuz1MWOcav4F-30SgSVBw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:57,660 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:57,661 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:51:57,661 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:51:57,661 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:51:57,661 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDE5fQ.XTWEZ_5X-EUKiHMIS4Am3DALTaDCBN8eXgFyUh6MB12gVjjxXUtT-csn3-n-ySdejOuz1MWOcav4F-30SgSVBw'}
+2022-04-29 15:51:57,662 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:51:57,662 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:51:57,691 INFO [root] [login.py(login:31)] - response结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:51:57,691 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:51:57,692 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:51:57,692 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:51:57,692 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:52:48,445 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:52:48,624 INFO [root] [test_register.py(build_data:28)] - test_data=[('18251218768', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('18951218768', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:52:48,627 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:52:48,627 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:52:48,677 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:57:50', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA3MH0._puSXJu5Km9zemKKHeV7tdDfuO9K7v_gH4KWCOh449hA4_SugReZXxE54B53ztiG22WWiRKzMuWb4CwVHQ2aBw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:52:48,678 INFO [root] [test_login_success.py(test_login_success:23)] - response={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:57:50', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA3MH0._puSXJu5Km9zemKKHeV7tdDfuO9K7v_gH4KWCOh449hA4_SugReZXxE54B53ztiG22WWiRKzMuWb4CwVHQ2aBw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:52:48,678 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:52:48,678 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:52:48,678 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:52:48,678 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA3MH0._puSXJu5Km9zemKKHeV7tdDfuO9K7v_gH4KWCOh449hA4_SugReZXxE54B53ztiG22WWiRKzMuWb4CwVHQ2aBw'}
+2022-04-29 15:52:48,679 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:52:48,679 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:52:48,679 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:52:48,704 INFO [root] [login.py(login:31)] - response结果： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:57:50', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDcwfQ.x9LnjDVn3hkM_fwMP2Dvk1f_i-yhoGyl66spjaWV0xUgGFs7W4UxmB5f1Ykkx1sDNViRbEKDrumXUV63ULWWfw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:52:48,704 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:52:48,704 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:52:48,705 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:52:48,705 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:52:48,705 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDcwfQ.x9LnjDVn3hkM_fwMP2Dvk1f_i-yhoGyl66spjaWV0xUgGFs7W4UxmB5f1Ykkx1sDNViRbEKDrumXUV63ULWWfw'}
+2022-04-29 15:52:48,705 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:52:48,705 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:52:48,728 INFO [root] [login.py(login:31)] - response结果： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:52:48,729 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:52:48,729 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:52:48,729 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:52:48,729 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:53:11,086 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:53:11,287 INFO [root] [test_register.py(build_data:28)] - test_data=[('15851218791', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('18351218791', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:53:11,292 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:53:11,292 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:53:11,333 INFO [root] [login.py(login:31)] - response=： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:58:13', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA5M30.BzMzZfHjoJCgMYT6mRX2210H-kkdT3xsEaXv0qgdezw_NxNYY2OTjO7uPXUq41aUHwtDWjBUWWo_n-0Fw19yag'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:53:11,334 INFO [root] [test_login_success.py(test_login_success:23)] - response={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:58:13', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA5M30.BzMzZfHjoJCgMYT6mRX2210H-kkdT3xsEaXv0qgdezw_NxNYY2OTjO7uPXUq41aUHwtDWjBUWWo_n-0Fw19yag'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:53:11,334 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:53:11,335 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:53:11,335 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:53:11,335 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTA5M30.BzMzZfHjoJCgMYT6mRX2210H-kkdT3xsEaXv0qgdezw_NxNYY2OTjO7uPXUq41aUHwtDWjBUWWo_n-0Fw19yag'}
+2022-04-29 15:53:11,336 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:53:11,336 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:53:11,336 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:53:11,362 INFO [root] [login.py(login:31)] - response=： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:58:13', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDkzfQ.ZGBeTCbizXdn5heOXkpve69bF1jm54BWyXl9TMhK6i37gPo--TQ4m9rA8avJM-g-gJ5U8R1aRnn84LeQqcXelg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:53:11,362 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:53:11,363 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:53:11,363 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:53:11,363 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:53:11,364 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MDkzfQ.ZGBeTCbizXdn5heOXkpve69bF1jm54BWyXl9TMhK6i37gPo--TQ4m9rA8avJM-g-gJ5U8R1aRnn84LeQqcXelg'}
+2022-04-29 15:53:11,364 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:53:11,364 INFO [root] [login.py(login:29)] - 开始请求登录接口
+2022-04-29 15:53:11,392 INFO [root] [login.py(login:31)] - response=： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:53:11,392 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:53:11,392 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:53:11,393 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:53:11,393 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:09,006 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:54:09,260 INFO [root] [test_register.py(build_data:28)] - test_data=[('18751218849', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('15251218849', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:54:09,263 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:09,299 INFO [root] [login.py(login:30)] - response=： {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:11', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE1MX0.vWfAS6dIwssQbj4pnjcgC6t0WWDpRV7BtwTbpnoC55axspEzGHBlZYy9IhCFPnUiiUAlMzkyDGqEsrc7DAOt-A'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:09,299 INFO [root] [test_login_success.py(test_login_success:23)] - response={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:11', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE1MX0.vWfAS6dIwssQbj4pnjcgC6t0WWDpRV7BtwTbpnoC55axspEzGHBlZYy9IhCFPnUiiUAlMzkyDGqEsrc7DAOt-A'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:09,300 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:09,300 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:09,300 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:09,300 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE1MX0.vWfAS6dIwssQbj4pnjcgC6t0WWDpRV7BtwTbpnoC55axspEzGHBlZYy9IhCFPnUiiUAlMzkyDGqEsrc7DAOt-A'}
+2022-04-29 15:54:09,301 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:09,301 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:54:09,330 INFO [root] [login.py(login:30)] - response=： {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:11', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTUxfQ.5qES2E_5a3pE_KJN4roq7FVgcIE8W_5xgV4O_BoxHJmqa0gH0wQJOqWbeiU_tu8nkDM720YiQ7eZky9irUTk5Q'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:09,330 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:09,331 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:09,331 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:09,331 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:09,332 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTUxfQ.5qES2E_5a3pE_KJN4roq7FVgcIE8W_5xgV4O_BoxHJmqa0gH0wQJOqWbeiU_tu8nkDM720YiQ7eZky9irUTk5Q'}
+2022-04-29 15:54:09,332 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:54:09,360 INFO [root] [login.py(login:30)] - response=： {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:09,360 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:09,360 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:54:09,361 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:54:09,361 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:24,482 INFO [root] [__init__.py(<module>:7)] - api.__info__ test info__ing
+2022-04-29 15:54:24,733 INFO [root] [test_register.py(build_data:28)] - test_data=[('15751218864', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('15951218864', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:54:24,737 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:24,772 INFO [root] [login.py(login:30)] - response= {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:26', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE2Nn0.7RfAxa_OODQnpbWtV1BFThKtX-X2Qymkok9759jusPhxgTz8nVb5SvI9nKHSETm-DxAJxkjMhqu5zDIIu6ZCRA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:24,773 INFO [root] [test_login_success.py(test_login_success:23)] - response={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:26', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE2Nn0.7RfAxa_OODQnpbWtV1BFThKtX-X2Qymkok9759jusPhxgTz8nVb5SvI9nKHSETm-DxAJxkjMhqu5zDIIu6ZCRA'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:24,773 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:24,773 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:24,773 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:24,773 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE2Nn0.7RfAxa_OODQnpbWtV1BFThKtX-X2Qymkok9759jusPhxgTz8nVb5SvI9nKHSETm-DxAJxkjMhqu5zDIIu6ZCRA'}
+2022-04-29 15:54:24,774 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:24,774 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:54:24,805 INFO [root] [login.py(login:30)] - response= {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:26', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTY2fQ.bUSrQcX9QxjQ0BlslQVIta_k-R-kPRlMq52QFtiwg9xQfRCEQLRtdPDIV-GbNru6pNTNRNDTpXrbhBlbKZVCBQ'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:24,805 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:24,805 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:24,805 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:24,805 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:24,806 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTY2fQ.bUSrQcX9QxjQ0BlslQVIta_k-R-kPRlMq52QFtiwg9xQfRCEQLRtdPDIV-GbNru6pNTNRNDTpXrbhBlbKZVCBQ'}
+2022-04-29 15:54:24,806 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:54:24,831 INFO [root] [login.py(login:30)] - response= {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:24,831 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:24,832 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:54:24,832 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:54:24,832 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:37,999 INFO [root] [test_register.py(build_data:28)] - test_data=[('18751218877', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('13951218877', '', 1, 'reg_name', 200, 1, '密码为空')]
+2022-04-29 15:54:38,003 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:38,050 INFO [root] [login.py(login:30)] - response= {'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:40', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE4MH0.oMa1h61kpa40vP7TSlwkF-On46HrJPzNKqNUbdr-MZHf9NvvnwtGM5krXZ2Lo1NIYNJUNbp4mS_ztCUn4gD-vg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:38,051 INFO [root] [test_login_success.py(test_login_success:23)] - response={'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 100.0, 'mobile_phone': '13800000002', 'reg_name': 'Postman_t', 'reg_time': '2022-04-26 10:38:51.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:40', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE4MH0.oMa1h61kpa40vP7TSlwkF-On46HrJPzNKqNUbdr-MZHf9NvvnwtGM5krXZ2Lo1NIYNJUNbp4mS_ztCUn4gD-vg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:38,051 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:38,052 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:38,052 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:38,052 INFO [root] [test_login_success.py(test_login_success:31)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY1MTIxOTE4MH0.oMa1h61kpa40vP7TSlwkF-On46HrJPzNKqNUbdr-MZHf9NvvnwtGM5krXZ2Lo1NIYNJUNbp4mS_ztCUn4gD-vg'}
+2022-04-29 15:54:38,053 INFO [root] [login.py(__init__:11)] - login_url: http://api.mypeng.site:8080/futureloan/member/login
+2022-04-29 15:54:38,053 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15851218321，1234567@，200，0，OK
+2022-04-29 15:54:38,084 INFO [root] [login.py(login:30)] - response= {'code': 0, 'msg': 'OK', 'data': {'id': 133, 'leave_amount': 0.0, 'mobile_phone': '15851218321', 'reg_name': 'AutoTestPy', 'reg_time': '2022-04-29 07:45:23.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2022-04-29 07:59:40', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTgwfQ.I4Xbu_m_2PkGQY6FsXqvGUvdGUjOTp4k8_WXqwbWpQ-ifOD3_SWobQI-9pwk2jQ2ZV1vwCEoSqDje9segk-Ong'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:38,084 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:38,085 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：0,实际结果：0
+2022-04-29 15:54:38,085 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：OK,实际结果：OK
+2022-04-29 15:54:38,085 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************
+2022-04-29 15:54:38,085 INFO [root] [test_login.py(test_login:48)] - utils.header_data=={'Content-Type': 'application/json', 'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEzMywiZXhwIjoxNjUxMjE5MTgwfQ.I4Xbu_m_2PkGQY6FsXqvGUvdGUjOTp4k8_WXqwbWpQ-ifOD3_SWobQI-9pwk2jQ2ZV1vwCEoSqDje9segk-Ong'}
+2022-04-29 15:54:38,086 INFO [root] [test_login.py(test_login:34)] - 打印取到的参数化数据： 15946581029，123456，200，1001，账号信息错误
+2022-04-29 15:54:38,112 INFO [root] [login.py(login:30)] - response= {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2022-04-29 15:54:38,112 INFO [root] [utils.py(common_assert:48)] - status_code断言完毕,预期：200,实际结果：200
+2022-04-29 15:54:38,112 INFO [root] [utils.py(common_assert:50)] - 字段code断言完毕,预期：1001,实际结果：1001
+2022-04-29 15:54:38,113 INFO [root] [utils.py(common_assert:52)] - 字段msg断言完毕,预期：账号信息错误,实际结果：账号信息错误
+2022-04-29 15:54:38,113 INFO [root] [test_login.py(test_login:43)] - 断言结束，当前用例执行结束 ********************************************************

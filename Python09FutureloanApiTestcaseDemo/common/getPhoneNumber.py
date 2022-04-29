@@ -1,15 +1,14 @@
-#! /usr/bin/env python3
-# -*- coding:utf-8 -*-
-# @Author:xiajian
-# @name: 生成手机号
-# @Email:812011745@qq.com
-# @Software:PyCharm
-from loguru import logger
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time : 2022/4/29 3:57 PM
+# @Author : 夏见。
+# @File : getPhoneNumber.py
+
 import random
 import time
 
 
-def create_a_phone():
+def getPhoneNumber():
     # 第二位数字
     second = [3, 5, 8][random.randint(0, 2)]
 
@@ -24,7 +23,5 @@ def create_a_phone():
 
 
 if __name__ == '__main__':
-    for i in range(10):
-        phone = create_a_phone()
-        logger.info(phone)
-        time.sleep(1)
+    phone = getPhoneNumber()
+    print(phone)

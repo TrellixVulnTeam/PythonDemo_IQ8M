@@ -1,6 +1,6 @@
-from loguru import logger
 import requests
 from common import utils
+import logging
 
 
 class LoginApi:
@@ -8,7 +8,7 @@ class LoginApi:
     def __init__(self):
         # 登录URL
         self.login_url = utils.BASE_URL + "/member/login"
-        logger.info("login_url:", self.login_url)
+        logging.info("login_url: {}".format(self.login_url))
 
     # 登录
     def login(self, mobile_phone, pwd):
@@ -25,11 +25,10 @@ class LoginApi:
         header_data = {
             "X-Lemonban-Media-Type": "lemonban.v2"
         }
-
-        logger.info("开始请求登录接口")
-        res = requests.post(self.login_url, json=ruquest_data, headers=header_data)
-        logger.info(f"res结果： {res.json()}")
-        return res
+        logging.debug("开始请求登录接口ing")
+        response = requests.post(self.login_url, json=ruquest_data, headers=header_data)
+        logging.info(f"response= {response.json()}")
+        return response
 
 
 if __name__ == '__main__':

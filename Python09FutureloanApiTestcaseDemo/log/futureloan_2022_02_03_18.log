@@ -1,9 +1,0 @@
-2022-02-03 18:12:30,181 INFO [root] [test_register.py(build_data:28)] - test_data=[('18743883150', '1234567@', 1, 'reg_name', 200, 0, 'OK'), ('15743883150', '', 1, 'reg_name', 200, 1, '密码为空')]
-2022-02-03 18:12:30,185 INFO [root] [register.py(register:34)] - requesdate = {'mobile_phone': '18743883150', 'pwd': '1234567@', 'type': 1, 'reg_name': 'reg_name'}
-2022-02-03 18:12:30,185 INFO [root] [register.py(register:35)] - 开始请求注册接口
-2022-02-03 18:12:30,236 INFO [root] [test_register.py(test_login:42)] - json_data={'code': 0, 'msg': 'OK', 'data': {'id': 38, 'reg_name': 'reg_name', 'mobile_phone': '18743883150'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
-
-2022-02-03 18:12:30,237 INFO [root] [register.py(register:34)] - requesdate = {'mobile_phone': '15743883150', 'pwd': '', 'type': 1, 'reg_name': 'reg_name'}
-2022-02-03 18:12:30,237 INFO [root] [register.py(register:35)] - 开始请求注册接口
-2022-02-03 18:12:30,265 INFO [root] [test_register.py(test_login:42)] - json_data={'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
-

@@ -1,33 +1,48 @@
 import unittest
-from loguru import logger
-
-from Python09FutureloanApiTestcaseDemo.api.login import LoginApi
-from Python09FutureloanApiTestcaseDemo.common import utils
-
+import logging
+import json
+from api.login import LoginApi
+from common import utils
 from parameterized import parameterized
 
 
+# 构造测试数据，读取JSON文件
+def build_data():
+    test_data = []
+    with open(utils.BASE_DIR + "/data/login.json", encoding="UTF-8") as f:
+        json_data = json.load(f)
+        for case_data in json_data:
+            mobile_phone = case_data.get("mobile_phone")
+            pwd = case_data.get("pwd")
+            status_code = case_data.get("status_code")
+            code = case_data.get("code")
+            msg = case_data.get("msg")
+            test_data.append((mobile_phone, pwd, status_code, code, msg))
+        # logging.info(" Test_data={}".format(test_data))
+    return test_data
+
+
 class TestLogin(unittest.TestCase):
+
     @classmethod
     def setUpClass(cls) -> None:
         cls.login_api = LoginApi()
 
-    # 登录成功
-
-    def test_login_success(self):
-        # 测试数据
-        mobile = "13216365136"
-        pwd = "12345678"
-
+    # 登录
+    @parameterized.expand(build_data)
+    def test_login(self, mobile_phone, pwd, status_code, code, msg):
+        logging.info("打印取到的参数化数据： {}，{}，{}，{}，{}".format(mobile_phone, pwd, status_code, code, msg))
         # 登录
-        response = self.login_api.login(mobile, pwd)
-        json_data = response.json()
-        logger.info("json_data={}".format(json_data))
-
+        response = self.login_api.login(mobile_phone, pwd)
+        logging.info("response= {}".format(response.json()))
         # 断言
-        utils.common_assert(self, response, 200, 0)
-
+        utils.common_assert(self, response, status_code, code, msg)
+        # self.assertEqual(json_data["code"], datacode, "断言返回消息体的code码")
+        # self.assertEqual(json_data["msg"], msg, "断言msg消息")
+        logging.info("断言结束，当前用例执行结束 ********************************************************")
         # 保存token数据
-        token = json_data["data"]["token_info"]["token"]
-        utils.header_data["Authorization"] = "Bearer " + token
-        logger.info("utils.header_data=\n"+str(utils.header_data))
+        if response.json()["msg"] == "OK":
+            token = response.json()["data"]["token_info"]["token"]
+            utils.header_data["Authorization"] = "Bearer " + token
+            logging.info("utils.header_data=={}".format(str(utils.header_data)))
+            # app.a = 2

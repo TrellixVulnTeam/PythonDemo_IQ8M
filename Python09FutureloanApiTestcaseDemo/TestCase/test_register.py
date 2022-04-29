@@ -9,7 +9,6 @@ import json
 from parameterized import parameterized
 
 
-# [(), (), ()]
 def build_data():
     test_data = []
     with open(utils.BASE_DIR + "/data/register.json", encoding="UTF-8") as f:
@@ -25,7 +24,7 @@ def build_data():
             code = case_data.get("code")
             msg = case_data.get("msg")
             test_data.append((mobile_phone, pwd, type_int, reg_name, status_code, code, msg))
-        logging.info("test_data={}".format(test_data))
+        # logging.info("test_data={}".format(test_data))
     return test_data
 
 
