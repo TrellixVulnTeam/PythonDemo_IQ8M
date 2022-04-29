@@ -18,5 +18,15 @@
     "status_code": 200,
     "code": 1,
     "msg": "密码为空"
+  },
+  {
+    "desc": "手机号为空",
+    "mobile_phone": "",
+    "pwd": "12345678",
+    "type_int": 1,
+    "reg_name": "reg_name",
+    "status_code": 200,
+    "code": 1,
+    "msg": "手机号为空"
   }
 ]

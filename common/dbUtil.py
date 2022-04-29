@@ -46,7 +46,7 @@ class DBUtil:
         except:
             # 发生错误时回滚
             self.conn.rollback()
-            logging.error("sql执行失败！")
+            logging.error(f"sql执行失败！sql={sql}")
 
     def __del__(self):
         self.conn.close()

@@ -45,8 +45,8 @@ class TestRegister(unittest.TestCase):
     def test_register(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
         db = dbUtil.DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'futureloan')
         delectSql = f"DELETE FROM member WHERE mobile_phone = {mobile_phone}"
-        print(delectSql)
-        db.write_db(delectSql)
+        if mobile_phone:
+            db.write_db(delectSql)
         # 注册
         response = self.register_api.register(mobile_phone, pwd, type_int, reg_name)
         logging.info(f"response= {response.json()}")
