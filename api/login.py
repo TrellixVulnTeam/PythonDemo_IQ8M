@@ -7,6 +7,7 @@
 import logging
 
 import requests
+
 from common import utils
 
 
@@ -29,9 +30,7 @@ class LoginApi:
                 ruquest_data = {}
             ruquest_data["pwd"] = pwd
 
-        header_data = {
-            "X-Lemonban-Media-Type": "lemonban.v2"
-        }
+        header_data = utils.header_data
         logging.debug("开始请求登录接口ing")
         response = requests.post(self.login_url, json=ruquest_data, headers=header_data)
         logging.info(f"response= {response.json()}")
@@ -40,4 +39,6 @@ class LoginApi:
 
 if __name__ == '__main__':
     res = LoginApi().login("15851136191", "1234567@")
-    # logging.info("main test res.json = {} \n".format(res.json()))
+    print("response= {}".format(res.json()))
+    mobile_id = res.json()["data"]["id"]
+    print("mobile_id==",mobile_id)

@@ -6,9 +6,10 @@
 
 import logging
 
+from requests import request
+
 from common import getPhoneNumber
 from common import utils
-from requests import request
 
 
 class RegisterApi:
