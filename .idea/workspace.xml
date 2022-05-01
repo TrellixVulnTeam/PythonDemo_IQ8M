@@ -28,11 +28,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 重复注册场景case">
-      <change afterPath="$PROJECT_DIR$/api/information.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_04_30_23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_01_00.log" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add information api">
+      <change afterPath="$PROJECT_DIR$/api/get_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/local.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/test.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_01_12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +123,28 @@
       <recent name="E:\Code\Python\PythonDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.information">
+  <component name="RunManager" selected="Python.get_env">
+    <configuration name="get_env" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/get_env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="information" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,27 +222,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python 测试 (test_repeat_register.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_repeat_register.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_env" />
         <item itemvalue="Python.information" />
         <item itemvalue="Python 测试.Python 测试 (test_login_success.py 内)" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python.run_suite" />
-        <item itemvalue="Python 测试.Python 测试 (test_repeat_register.py 内)" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651242948800</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add information api">
+      <created>1651335694098</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651335694098</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +586,8 @@
     <MESSAGE value="优化导入" />
     <MESSAGE value="更新sql清理逻辑" />
     <MESSAGE value="add 重复注册场景case" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 重复注册场景case" />
+    <MESSAGE value="add information api" />
+    <option name="LAST_COMMIT_MESSAGE" value="add information api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,7 +619,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api/login.py</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

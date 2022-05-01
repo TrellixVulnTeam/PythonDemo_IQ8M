@@ -16,9 +16,10 @@ class LoginApi:
     def __init__(self):
         # 登录URL
         self.login_url = utils.BASE_URL + "/member/login"
-        logging.info("login_url: {}".format(self.login_url))
+        logging.info(f"login_url: {self.login_url}")
 
-    # 登录
+        # 登录
+
     def login(self, mobile_phone, pwd):
         ruquest_data = None
         if mobile_phone is not None:
@@ -41,4 +42,4 @@ if __name__ == '__main__':
     res = LoginApi().login("15851136191", "1234567@")
     print("response= {}".format(res.json()))
     mobile_id = res.json()["data"]["id"]
-    print("mobile_id==",mobile_id)
+    print("mobile_id==", mobile_id)
