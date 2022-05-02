@@ -8,8 +8,8 @@ import logging
 import unittest
 
 from api.register import RegisterApi
+from common import conf, utils
 from common import getPhoneNumber
-from common import utils
 
 
 class TestRegisterSuccess(unittest.TestCase):
@@ -20,8 +20,8 @@ class TestRegisterSuccess(unittest.TestCase):
     def test_register_success(self):
         # 测试数据
         mobile = getPhoneNumber.getPhoneNumber()
-        pwd = utils.BSAE_PASSWORD
-        type_int = utils.BASE_TYPEINT
+        pwd = conf.BSAE_PASSWORD
+        type_int = conf.BASE_TYPEINT
 
         # 发送注册请求
         response = self.register_api.register(mobile, pwd, type_int)

@@ -6,25 +6,12 @@
 
 import logging
 import logging.handlers
-import os
 import time
 
-# 项目根目录
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
-# 项目基本路径
-BASE_URL = "http://api.mypeng.site:8080/futureloan"
-
-BSAE_PASSWORD = "1234567@"
-BASE_TYPEINT = 1
-# 请求头数据
-header_data = {
-    "Content-Type": "application/json",
-    "X-Lemonban-Media-Type": "lemonban.v2"
-}
-
-
 # 初始化日志配置
+from common.conf import BASE_DIR
+
+
 def init_log_config():
     # 创建日志器
     logger = logging.getLogger()

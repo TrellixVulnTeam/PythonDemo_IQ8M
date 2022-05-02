@@ -8,15 +8,16 @@ import json
 import logging
 import unittest
 
-from api.login import LoginApi
-from common import utils
 from parameterized import parameterized
+
+from api.login import LoginApi
+from common import conf, utils
 
 
 # 构造测试数据，读取JSON文件
 def build_data():
     test_data = []
-    with open(utils.BASE_DIR + "/data/login.json", encoding="UTF-8") as f:
+    with open(conf.BASE_DIR + "/data/login.json", encoding="UTF-8") as f:
         json_data = json.load(f)
         for case_data in json_data:
             mobile_phone = case_data.get("mobile_phone")
@@ -50,6 +51,6 @@ class TestLogin(unittest.TestCase):
         # 保存token数据
         if response.json()["msg"] == "OK":
             token = response.json()["data"]["token_info"]["token"]
-            utils.header_data["Authorization"] = "Bearer " + token
-            logging.info(f"utils.header_data== {utils.header_data}")
+            conf.header_data["Authorization"] = "Bearer " + token
+            logging.info(f"utils.header_data== {conf.header_data}")
             # app.a = 2

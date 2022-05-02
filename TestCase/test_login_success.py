@@ -8,7 +8,7 @@ import logging
 import unittest
 
 from api.login import LoginApi
-from common import utils
+from common import conf, utils
 
 
 class TestLoginSuccess(unittest.TestCase):
@@ -31,5 +31,5 @@ class TestLoginSuccess(unittest.TestCase):
 
         # 保存token数据
         token = response.json()["data"]["token_info"]["token"]
-        utils.header_data["Authorization"] = "Bearer " + token
-        logging.info(f"utils.header_data== {utils.header_data}")
+        conf.header_data["Authorization"] = "Bearer " + token
+        logging.info(f"utils.header_data== {conf.header_data}")

@@ -8,14 +8,14 @@ import logging
 
 import requests
 
-from common import utils
+from common import conf
 
 
 class LoginApi:
 
     def __init__(self):
         # 登录URL
-        self.login_url = utils.BASE_URL + "/member/login"
+        self.login_url = conf.BASE_URL + "/member/login"
         logging.info(f"login_url: {self.login_url}")
 
         # 登录
@@ -31,7 +31,7 @@ class LoginApi:
                 ruquest_data = {}
             ruquest_data["pwd"] = pwd
 
-        header_data = utils.header_data
+        header_data = conf.header_data
         logging.debug("开始请求登录接口ing")
         response = requests.post(self.login_url, json=ruquest_data, headers=header_data)
         logging.info(f"response= {response.json()}")
@@ -39,7 +39,10 @@ class LoginApi:
 
 
 if __name__ == '__main__':
-    res = LoginApi().login("15851136191", "1234567@")
-    print("response= {}".format(res.json()))
+    from common.utils import init_log_config
+
+    init_log_config()
+    res = LoginApi().login(conf.base_user, conf.base_pass)
+    # print("response= {}".format(res.json()))
     mobile_id = res.json()["data"]["id"]
-    print("mobile_id==", mobile_id)
+    # print("mobile_id==", mobile_id)

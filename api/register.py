@@ -8,8 +8,7 @@ import logging
 
 from requests import request
 
-from common import getPhoneNumber
-from common import utils
+from common import conf, getPhoneNumber
 
 
 class RegisterApi:
@@ -17,7 +16,7 @@ class RegisterApi:
     @staticmethod
     def register(mobile_phone, pwd, type_int, reg_name="AutoTestPy"):
         # 注册URL
-        login_url = utils.BASE_URL + "/member/register"
+        login_url = conf.BASE_URL + "/member/register"
         ruquest_data = None
         if mobile_phone is not None:
             if ruquest_data is None:
@@ -38,13 +37,13 @@ class RegisterApi:
 
         logging.debug("request= {}".format(ruquest_data))
         logging.info("开始请求注册接口 ing ")
-        return request('post', login_url, json=ruquest_data, headers=utils.header_data)
+        return request('post', login_url, json=ruquest_data, headers=conf.header_data)
 
 
 if __name__ == '__main__':
     # 拼接手机号
     phone = getPhoneNumber.getPhoneNumber()
-    password = utils.BSAE_PASSWORD
-    type_int = utils.BASE_TYPEINT
+    password = conf.BSAE_PASSWORD
+    type_int = conf.BASE_TYPEINT
     response = RegisterApi.register(phone, password, type_int)
     logging.info("response= {}".format(response.json()))

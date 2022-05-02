@@ -8,6 +8,8 @@ import logging
 
 import pymysql
 
+from common.get_env import get_env
+
 
 class DBUtil:
 
@@ -54,7 +56,17 @@ class DBUtil:
 
 
 if __name__ == '__main__':
-    mysql = DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'books')
+    from common.utils import init_log_config
+
+    init_log_config()
+    db_server = get_env(env="local", sections="db", parameter="server")
+    db_user = get_env(env="local", sections="db", parameter="user")
+    db_port = int(get_env(env="local", sections="db", parameter="port"))
+    db_password = get_env(env="local", sections="db", parameter="password")
+
+    # print(db_server, db_user, db_password, db_port)
+    mysql = DBUtil(db_user, db_password, db_server, db_port, 'books')
+    # mysql = DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'books')
     sql = "select * from t_book limit 1;"
     # result = mysql.read_db(sql)
     # print("select查询返回数据：", result)

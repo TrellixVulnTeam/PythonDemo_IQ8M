@@ -28,15 +28,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add information api">
-      <change afterPath="$PROJECT_DIR$/api/get_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/local.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/test.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_01_12.log" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update case and add info">
+      <change afterPath="$PROJECT_DIR$/TestCase/test_information.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/pre.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_02_18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_02_19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_login_success.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login_success.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_register_success.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_register_success.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_repeat_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_repeat_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/get_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_env.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/dbUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dbUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/local.ini" beforeDir="false" afterPath="$PROJECT_DIR$/env/local.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/env/test.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_suite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,62 +124,20 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestCase" />
+      <recent name="$PROJECT_DIR$/env" />
       <recent name="E:\Code\Python\PythonDemo" />
       <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
       <recent name="E:\Code\Python\PythonDemo\新鲜东西\樱花树" />
-      <recent name="$PROJECT_DIR$/Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
       <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
       <recent name="$PROJECT_DIR$" />
       <recent name="E:\Code\Python\PythonDemo\Test" />
-      <recent name="E:\Code\Python\PythonDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.get_env">
-    <configuration name="get_env" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/get_env.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="information" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/information.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python 测试.test_information.TestInForMation.test_information 的 Python 测试">
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,28 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_suite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python 测试 (test_login_success.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_information.TestInForMation.test_information 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,17 +169,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_login_success.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_information.TestInForMation.test_information&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_information.TestRegisterSuccess 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_information.TestRegisterSuccess&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_information.TestRegisterSuccess.test_information 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_information.TestRegisterSuccess.test_information&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login_success.TestLoginSuccess.test_login_success 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_success.TestLoginSuccess.test_login_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_env" />
-        <item itemvalue="Python.information" />
-        <item itemvalue="Python 测试.Python 测试 (test_login_success.py 内)" />
+        <item itemvalue="Python 测试.test_information.TestInForMation.test_information 的 Python 测试" />
+        <item itemvalue="Python 测试.test_information.TestRegisterSuccess 的 Python 测试" />
+        <item itemvalue="Python 测试.test_information.TestRegisterSuccess.test_information 的 Python 测试" />
         <item itemvalue="Python.login" />
-        <item itemvalue="Python.run_suite" />
+        <item itemvalue="Python 测试.test_login_success.TestLoginSuccess.test_login_success 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651335694098</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update case and add info">
+      <created>1651423751780</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1651423751780</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +587,8 @@
     <MESSAGE value="更新sql清理逻辑" />
     <MESSAGE value="add 重复注册场景case" />
     <MESSAGE value="add information api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add information api" />
+    <MESSAGE value="update case and add info" />
+    <option name="LAST_COMMIT_MESSAGE" value="update case and add info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,9 +619,14 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/api/login.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/common/dbUtil.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/dbUtil.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

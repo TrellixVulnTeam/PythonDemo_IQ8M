@@ -8,15 +8,16 @@ import json
 import logging
 import unittest
 
-from api.register import RegisterApi
-from common import dbUtil
-from common import utils
 from parameterized import parameterized
+
+from api.register import RegisterApi
+from common import conf
+from common import dbUtil, utils
 
 
 def build_data():
     test_data = []
-    with open(utils.BASE_DIR + "/data/register.json", encoding="UTF-8") as f:
+    with open(conf.BASE_DIR + "/data/register.json", encoding="UTF-8") as f:
         json_data = json.load(f)
         for case_data in json_data:
             # mobile_phone = getPhoneNumber.getPhoneNumber()  # 获取一个手机号
@@ -44,9 +45,9 @@ class TestRegister(unittest.TestCase):
     @parameterized.expand(build_data)
     def test_register(self, mobile_phone, pwd, type_int, reg_name, status_code, code, msg):
         db = dbUtil.DBUtil('root', 'Lemon123456!', 'api.mypeng.site', 3305, 'futureloan')
-        delectSql = f"DELETE FROM member WHERE mobile_phone = {mobile_phone}"
+        delete_sql: str = f"DELETE FROM member WHERE mobile_phone = {mobile_phone}"
         if mobile_phone:
-            db.write_db(delectSql)
+            db.write_db(delete_sql)
         # 注册
         response = self.register_api.register(mobile_phone, pwd, type_int, reg_name)
         logging.info(f"response= {response.json()}")
