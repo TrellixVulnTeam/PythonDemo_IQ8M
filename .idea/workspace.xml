@@ -28,29 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update case and add info">
-      <change afterPath="$PROJECT_DIR$/TestCase/test_information.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/pre.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_02_18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_02_19.log" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update case and add infocase">
+      <change afterPath="$PROJECT_DIR$/log/futureloan_2022_05_10_23.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_login_success.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_login_success.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_register_success.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_register_success.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_repeat_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_repeat_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/get_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/get_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/information.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/dbUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dbUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/local.ini" beforeDir="false" afterPath="$PROJECT_DIR$/env/local.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/test.ini" beforeDir="false" afterPath="$PROJECT_DIR$/env/test.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_suite.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +118,7 @@
       <recent name="E:\Code\Python\PythonDemo\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.test_information.TestInForMation.test_information 的 Python 测试">
+  <component name="RunManager" selected="Python.login">
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.test_information.TestInForMation.test_information 的 Python 测试" />
-        <item itemvalue="Python 测试.test_information.TestRegisterSuccess 的 Python 测试" />
-        <item itemvalue="Python 测试.test_information.TestRegisterSuccess.test_information 的 Python 测试" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python 测试.test_login_success.TestLoginSuccess.test_login_success 的 Python 测试" />
+        <item itemvalue="Python 测试.test_information.TestRegisterSuccess 的 Python 测试" />
+        <item itemvalue="Python 测试.test_information.TestRegisterSuccess.test_information 的 Python 测试" />
+        <item itemvalue="Python 测试.test_information.TestInForMation.test_information 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>

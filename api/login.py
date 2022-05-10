@@ -3,7 +3,6 @@
 # @Time : 2022/4/27 10:50 PM
 # @Author : 夏见。
 # @File : login.py
-
 import logging
 
 import requests
@@ -44,5 +43,7 @@ if __name__ == '__main__':
     init_log_config()
     res = LoginApi().login(conf.base_user, conf.base_pass)
     # print("response= {}".format(res.json()))
-    mobile_id = res.json()["data"]["id"]
-    # print("mobile_id==", mobile_id)
+    # mobile_id = res.json()["data"]["id"]
+    # print("json()中括号 mobile_id=", mobile_id)
+    # jsonData = res.json()
+    # print("getResponse.data.id= ", jsonData.get("data").get("id"))
