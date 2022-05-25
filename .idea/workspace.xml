@@ -28,7 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update some demo">
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="优化导入">
+      <change afterPath="$PROJECT_DIR$/实践代码操作环境变量/create_system_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实践代码操作环境变量/create_tmp_env_demo01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="apitestdemo" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -66,9 +73,6 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20aVWouqUt7RtDBIQBTncLXXB6O" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,8 +115,8 @@
       <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.Unittest in unittest_01_demo.py">
-    <configuration name="reques_01_get_func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.create_system_env">
+    <configuration name="create_system_env" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实践代码操作环境变量" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_01_get_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实践代码操作环境变量/create_system_env.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_02_post_register" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="create_tmp_env_demo01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实践代码操作环境变量" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实践代码操作环境变量/create_tmp_env_demo01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_system_env" />
+        <item itemvalue="Python.create_tmp_env_demo01" />
         <item itemvalue="Python 测试.Unittest in unittest_01_demo.py" />
         <item itemvalue="Python.reques_04_get_info" />
         <item itemvalue="Python.reques_03_post_login" />
-        <item itemvalue="Python.reques_02_post_register" />
-        <item itemvalue="Python.reques_01_get_func" />
       </list>
     </recent_temporary>
   </component>
@@ -523,6 +527,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -544,6 +549,24 @@
     <MESSAGE value="update some demo and add 冰墩墩" />
     <MESSAGE value="update some demo" />
     <option name="LAST_COMMIT_MESSAGE" value="update some demo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1637" height="240" key="GridCell.Tab.0.bottom" timestamp="1653489803481">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="240" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1653489803481" />
+    <state width="1637" height="240" key="GridCell.Tab.0.center" timestamp="1653489803481">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="240" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1653489803481" />
+    <state width="1637" height="240" key="GridCell.Tab.0.left" timestamp="1653489803481">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="240" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1653489803481" />
+    <state width="1637" height="240" key="GridCell.Tab.0.right" timestamp="1653489803481">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="240" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1653489803481" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
