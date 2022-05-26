@@ -10,7 +10,7 @@ host = "http://api.mypeng.site:8080"
 
 
 class Demo:
-
+    # 登录后获取token和member_id
     def login(self, user, password):
         login_path = "/futureloan/member/login"
 

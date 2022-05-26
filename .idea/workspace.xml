@@ -28,10 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 环境变量">
-      <change afterPath="$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实践代码操作环境变量/create_tmp_env_demo01.py" beforeDir="false" afterPath="$PROJECT_DIR$/实践代码操作环境变量/create_tmp_env_demo01.py" afterDir="false" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 环境变量举例">
+      <change beforePath="$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py" beforeDir="false" afterPath="$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653489919255</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add 环境变量举例">
+      <created>1653557511701</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653557511701</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +561,8 @@
     <MESSAGE value="update some demo and add 冰墩墩" />
     <MESSAGE value="update some demo" />
     <MESSAGE value="add 环境变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 环境变量" />
+    <MESSAGE value="add 环境变量举例" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 环境变量举例" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1653557228705">
@@ -591,10 +597,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228706" />
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1653489920819">
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1653557513259">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1653489920819" />
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1653557513259" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1653495174102">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -627,11 +633,6 @@
           <url>file://$PROJECT_DIR$/Python07RequestsDemo/reques_02_post_register.py</url>
           <line>38</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
