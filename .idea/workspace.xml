@@ -28,9 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 环境变量举例">
-      <change beforePath="$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py" beforeDir="false" afterPath="$PROJECT_DIR$/实践代码操作环境变量/接口返回写入环境变量应用.py" afterDir="false" />
-    </list>
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 环境变量举例" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -565,6 +563,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add 环境变量举例" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1653558064802">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="DiffContextDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1653558064802" />
     <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1653557228705">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
