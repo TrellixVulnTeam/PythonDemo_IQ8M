@@ -9,26 +9,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:apitestdemo" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="add 环境变量举例" />
+    <list default="true" id="5a6bd4df-03f6-4514-8a4f-fd1aeed3360b" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/新鲜东西/Python画粽子/draw_rice_dumplings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新鲜东西/Python画粽子/draw_rice_dumplings1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_5_25_22_14___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行检出之前于_2022_5_25_22_14_取消提交了变更_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/新鲜东西/Python画粽子" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,6 +93,13 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\Python\PythonDemo\新鲜东西\Python画粽子" />
+      <recent name="E:\Code\Python\PythonDemo" />
+      <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
+      <recent name="E:\Code\Python\PythonDemo\新鲜东西\樱花树" />
+      <recent name="$PROJECT_DIR$/Test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
       <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
@@ -103,15 +107,8 @@
       <recent name="E:\Code\Python\PythonDemo\Test" />
       <recent name="E:\Code\Python\PythonDemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\Python\PythonDemo" />
-      <recent name="E:\Code\Python\PythonDemo\新鲜东西" />
-      <recent name="E:\Code\Python\PythonDemo\新鲜东西\樱花树" />
-      <recent name="$PROJECT_DIR$/Test" />
-      <recent name="$PROJECT_DIR$/Python09FutureloanApiTestcaseDemo/common" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.接口返回写入环境变量应用">
+  <component name="RunManager" selected="Python.draw_rice_dumplings">
     <configuration name="接口返回写入环境变量应用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_tmp_env_demo01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="draw_rice_dumplings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实践代码操作环境变量" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新鲜东西/Python画粽子" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实践代码操作环境变量/create_tmp_env_demo01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新鲜东西/Python画粽子/draw_rice_dumplings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reques_04_get_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="draw_rice_dumplings1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python07RequestsDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新鲜东西/Python画粽子" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python07RequestsDemo/reques_04_get_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新鲜东西/Python画粽子/draw_rice_dumplings1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,27 +193,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittest in unittest_01_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="panzi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python08UnitTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/新鲜东西/Python画粽子" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python08UnitTest/unittest_01_demo.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/新鲜东西/Python画粽子/panzi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.draw_rice_dumplings" />
+        <item itemvalue="Python.panzi" />
+        <item itemvalue="Python.draw_rice_dumplings1" />
         <item itemvalue="Python.接口返回写入环境变量应用" />
         <item itemvalue="Python.create_system_env" />
-        <item itemvalue="Python.create_tmp_env_demo01" />
-        <item itemvalue="Python 测试.Unittest in unittest_01_demo.py" />
-        <item itemvalue="Python.reques_04_get_info" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653557511701</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update">
+      <created>1653558077989</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653558077989</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,15 +529,23 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
                       </list>
                     </value>
                   </entry>
@@ -535,6 +554,28 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="apitestdemo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -560,29 +601,34 @@
     <MESSAGE value="update some demo" />
     <MESSAGE value="add 环境变量" />
     <MESSAGE value="add 环境变量举例" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 环境变量举例" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="466" y="183" key="#检查" timestamp="1654162381165">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="466" y="183" key="#检查/0.0.1680.1010@0.0.1680.1010" timestamp="1654162381165" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1653558064802">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1653558064802" />
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1653557228705">
+    <state width="1637" height="213" key="GridCell.Tab.0.bottom" timestamp="1654162402334">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1653557228705">
+    <state width="1637" height="213" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1654162402334" />
+    <state width="1637" height="213" key="GridCell.Tab.0.center" timestamp="1654162402334">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1653557228705">
+    <state width="1637" height="213" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1654162402334" />
+    <state width="1637" height="213" key="GridCell.Tab.0.left" timestamp="1654162402334">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1653557228705">
+    <state width="1637" height="213" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1654162402334" />
+    <state width="1637" height="213" key="GridCell.Tab.0.right" timestamp="1654162402334">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228705" />
+    <state width="1637" height="213" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1654162402334" />
     <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1653557228708">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -599,10 +645,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1653557228706" />
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1653557513259">
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2" timestamp="1653558364490">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1653557513259" />
+    <state x="432" y="224" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1653558364490" />
+    <state x="539" y="239" key="VcsDiffUtil.ChangesDialog" timestamp="1653558144288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="539" y="239" key="VcsDiffUtil.ChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1653558144288" />
+    <state x="653" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653558166998">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="653" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1010@0.0.1680.1010" timestamp="1653558166998" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1653495174102">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
